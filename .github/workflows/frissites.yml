@@ -1,0 +1,28 @@
+name: EPG Frissites
+on:
+  schedule:
+    - cron: '10 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-epg:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fajlok letoltese
+        uses: actions/checkout@v4
+
+      - name: PowerShell szkript futtatasa
+        shell: pwsh
+        run: ./epg_frissito.ps1
+
+      - name: Kesz XML mentese a felhobe
+        run: |
+          rm -f temp_epg.dat
+          git config user.name "EPG Bot"
+          git config user.email "bot@github.com"
+          git add friss_epg.xml
+          git commit -m "EPG frissitve" || exit 0
+          git push
