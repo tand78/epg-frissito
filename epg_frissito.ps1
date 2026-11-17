@@ -1,6 +1,6 @@
 $urls = @(
-    "https://www.dropbox.com/scl/fi/caifjmth2phg24fq4k8to/friss_epg.xml?rlkey=ndai73r0r4bl98ip838p1ko5f&st=l2ehpif9&dl=1",
-    "http://www.open-epg.com/files/hungary1.xml.gz"
+    $env:DROPBOX_EPG_URL,
+    "http://open-epg.com"
 )
 
 $output = "friss_epg.xml"
@@ -29,7 +29,6 @@ foreach ($url in $urls) {
 
     $partContent = Get-Content -Path $xmlTemp -Raw -Encoding UTF8
 
-    # Csatornák és műsorok kigyűjtése az aktuális forrásból
     $channelsMatch = [regex]::Matches($partContent, '(?s)<channel\b.*?</channel>')
     foreach ($m in $channelsMatch) { $allChannels += "`r`n" + $m.Value }
 
@@ -39,7 +38,6 @@ foreach ($url in $urls) {
     Remove-Item $xmlTemp -Force
 }
 
-# Egyesített XML felépítése
 $content = "<?xml version=`"1.0`" encoding=`"UTF-8`"?>`r`n<tv>$allChannels$allProgrammes`r`n</tv>"
 
 # 1. Általános tisztítás, nagybetűsítés és (HD) / .hu törlése
@@ -59,11 +57,17 @@ $newContent = [regex]::Replace($newContent, '(?i)(?<prefix>id="|channel="|<displ
 $newContent = [regex]::Replace($newContent, '(?i)(?<prefix>id="|channel="|<display-name[^>]*>)HU:\s*RTL(?<suffix>"|</display-name>)', '${prefix}HU: RTL KLUB${suffix}')
 $newContent = [regex]::Replace($newContent, '(?i)(?<prefix>id="|channel="|<display-name[^>]*>)HU:\s*SL(Á|A)GER\s+TV(?<suffix>"|</display-name>)', '${prefix}HU: SLAGER TV${suffix}')
 
-# 3. Több <display-name> névvariáció generálása minden csatornához
+# 3. Duplikált csatornák kiszűrése és a 6 <display-name> variáció generálása
+$seenChannels = @{}
 $channelPattern = '(?s)<channel[^>]*id="HU:\s*(?<cname>[^"]+)"[^>]*>(?<inner>.*?)</channel>'
 $newContent = [regex]::Replace($newContent, $channelPattern, {
     param($m)
     $baseName = $m.Groups['cname'].Value.Trim()
+    if ($seenChannels.ContainsKey($baseName)) {
+        return ""
+    }
+    $seenChannels[$baseName] = $true
+
     $inner = [regex]::Replace($m.Groups['inner'].Value, '(?s)\s*<display-name[^>]*>.*?</display-name>', '')
     $names = "`r`n  <display-name>$baseName</display-name>" +
              "`r`n  <display-name>HU: $baseName</display-name>" +
@@ -72,6 +76,19 @@ $newContent = [regex]::Replace($newContent, $channelPattern, {
              "`r`n  <display-name>┃HU┃ $baseName</display-name>" +
              "`r`n  <display-name>$baseName (HD)</display-name>"
     return "<channel id=`"HU: $baseName`">$names$inner</channel>"
+})
+
+# 4. Duplikált műsorok kiszűrése (azonos csatorna + azonos kezdési időpont alapján)
+$seenProgrammes = @{}
+$progPattern = '(?s)<programme[^>]*start="(?<start>[^"]+)"[^>]*channel="(?<chan>[^"]+)"[^>]*>.*?</programme>'
+$newContent = [regex]::Replace($newContent, $progPattern, {
+    param($m)
+    $key = $m.Groups['chan'].Value + "_" + $m.Groups['start'].Value
+    if ($seenProgrammes.ContainsKey($key)) {
+        return ""
+    }
+    $seenProgrammes[$key] = $true
+    return $m.Value
 })
 
 Set-Content -Path $output -Value $newContent -Encoding UTF8
