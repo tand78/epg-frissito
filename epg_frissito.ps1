@@ -1,22 +1,46 @@
-$url = "https://www.dropbox.com/scl/fi/caifjmth2phg24fq4k8to/friss_epg.xml?rlkey=ndai73r0r4bl98ip838p1ko5f&st=l2ehpif9&dl=1"
+$urls = @(
+    "https://www.dropbox.com/scl/fi/caifjmth2phg24fq4k8to/friss_epg.xml?rlkey=ndai73r0r4bl98ip838p1ko5f&st=l2ehpif9&dl=1",
+    "http://www.open-epg.com/files/hungary1.xml.gz"
+)
+
 $output = "friss_epg.xml"
 $temp = "temp_epg.dat"
+$xmlTemp = "temp_part.xml"
 
-Invoke-WebRequest -Uri $url -OutFile $temp
+$allChannels = ""
+$allProgrammes = ""
 
-$bytes = [System.IO.File]::ReadAllBytes($temp)
-if ($bytes.Length -ge 2 -and $bytes.GetValue(0) -eq 0x1F -and $bytes.GetValue(1) -eq 0x8B) {
-    $in = New-Object System.IO.FileStream $temp, ([IO.FileMode]::Open)
-    $out = New-Object System.IO.FileStream $output, ([IO.FileMode]::Create)
-    $gz = New-Object System.IO.Compression.GzipStream $in, ([IO.Compression.CompressionMode]::Decompress)
-    $gz.CopyTo($out)
-    $gz.Close(); $out.Close(); $in.Close()
-    Remove-Item $temp -Force
-} else {
-    Move-Item $temp $output -Force
+foreach ($url in $urls) {
+    if ([string]::IsNullOrWhiteSpace($url)) { continue }
+
+    Invoke-WebRequest -Uri $url -OutFile $temp -UserAgent "Mozilla/5.0"
+
+    $bytes = [System.IO.File]::ReadAllBytes($temp)
+    if ($bytes.Length -ge 2 -and $bytes.GetValue(0) -eq 0x1F -and $bytes.GetValue(1) -eq 0x8B) {
+        $in = New-Object System.IO.FileStream $temp, ([IO.FileMode]::Open)
+        $out = New-Object System.IO.FileStream $xmlTemp, ([IO.FileMode]::Create)
+        $gz = New-Object System.IO.Compression.GzipStream $in, ([IO.Compression.CompressionMode]::Decompress)
+        $gz.CopyTo($out)
+        $gz.Close(); $out.Close(); $in.Close()
+        Remove-Item $temp -Force
+    } else {
+        Move-Item $temp $xmlTemp -Force
+    }
+
+    $partContent = Get-Content -Path $xmlTemp -Raw -Encoding UTF8
+
+    # Csatornák és műsorok kigyűjtése az aktuális forrásból
+    $channelsMatch = [regex]::Matches($partContent, '(?s)<channel\b.*?</channel>')
+    foreach ($m in $channelsMatch) { $allChannels += "`r`n" + $m.Value }
+
+    $progMatch = [regex]::Matches($partContent, '(?s)<programme\b.*?</programme>')
+    foreach ($m in $progMatch) { $allProgrammes += "`r`n" + $m.Value }
+
+    Remove-Item $xmlTemp -Force
 }
 
-$content = Get-Content -Path $output -Raw -Encoding UTF8
+# Egyesített XML felépítése
+$content = "<?xml version=`"1.0`" encoding=`"UTF-8`"?>`r`n<tv>$allChannels$allProgrammes`r`n</tv>"
 
 # 1. Általános tisztítás, nagybetűsítés és (HD) / .hu törlése
 $pattern = '(?i)(?<prefix>id="|channel="|<display-name[^>]*>)(?:HU:\s*)?(?<name>[^"<]+?)(?:\s*(?:\(HD\)|\.hu))*\s*(?<suffix>"|</display-name>)'
@@ -35,7 +59,7 @@ $newContent = [regex]::Replace($newContent, '(?i)(?<prefix>id="|channel="|<displ
 $newContent = [regex]::Replace($newContent, '(?i)(?<prefix>id="|channel="|<display-name[^>]*>)HU:\s*RTL(?<suffix>"|</display-name>)', '${prefix}HU: RTL KLUB${suffix}')
 $newContent = [regex]::Replace($newContent, '(?i)(?<prefix>id="|channel="|<display-name[^>]*>)HU:\s*SL(Á|A)GER\s+TV(?<suffix>"|</display-name>)', '${prefix}HU: SLAGER TV${suffix}')
 
-# 3. Több <display-name> névvariáció generálása minden csatornához (┃HU┃ előtaggal)
+# 3. Több <display-name> névvariáció generálása minden csatornához
 $channelPattern = '(?s)<channel[^>]*id="HU:\s*(?<cname>[^"]+)"[^>]*>(?<inner>.*?)</channel>'
 $newContent = [regex]::Replace($newContent, $channelPattern, {
     param($m)
