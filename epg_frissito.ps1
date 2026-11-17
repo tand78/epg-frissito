@@ -1,4 +1,4 @@
-$url = "http://www.open-epg.com/files/hungary1.xml.gz"
+$url = "https://www.dropbox.com/scl/fi/caifjmth2phg24fq4k8to/friss_epg.xml?rlkey=ndai73r0r4bl98ip838p1ko5f&st=l2ehpif9&dl=1"
 $output = "friss_epg.xml"
 $temp = "temp_epg.dat"
 
