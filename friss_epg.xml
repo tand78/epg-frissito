@@ -6,6 +6,7 @@
   <display-name>HUN: 360 TUNEBOX</display-name>
   <display-name>IHUI 360 TUNEBOX</display-name>
   <display-name>┃HU┃ 360 TUNEBOX</display-name>
+  <display-name>HU -  360 TUNEBOX</display-name>
   <display-name>360 TUNEBOX (HD)</display-name></channel>
 <channel id="HU: 7.TV">
   <display-name>7.TV</display-name>
@@ -13,6 +14,7 @@
   <display-name>HUN: 7.TV</display-name>
   <display-name>IHUI 7.TV</display-name>
   <display-name>┃HU┃ 7.TV</display-name>
+  <display-name>HU -  7.TV</display-name>
   <display-name>7.TV (HD)</display-name></channel>
 <channel id="HU: AMC">
   <display-name>AMC</display-name>
@@ -20,6 +22,7 @@
   <display-name>HUN: AMC</display-name>
   <display-name>IHUI AMC</display-name>
   <display-name>┃HU┃ AMC</display-name>
+  <display-name>HU -  AMC</display-name>
   <display-name>AMC (HD)</display-name></channel>
 <channel id="HU: ANIMAL PLANET">
   <display-name>ANIMAL PLANET</display-name>
@@ -27,6 +30,7 @@
   <display-name>HUN: ANIMAL PLANET</display-name>
   <display-name>IHUI ANIMAL PLANET</display-name>
   <display-name>┃HU┃ ANIMAL PLANET</display-name>
+  <display-name>HU -  ANIMAL PLANET</display-name>
   <display-name>ANIMAL PLANET (HD)</display-name></channel>
 <channel id="HU: APOSTOL TV">
   <display-name>APOSTOL TV</display-name>
@@ -34,6 +38,7 @@
   <display-name>HUN: APOSTOL TV</display-name>
   <display-name>IHUI APOSTOL TV</display-name>
   <display-name>┃HU┃ APOSTOL TV</display-name>
+  <display-name>HU -  APOSTOL TV</display-name>
   <display-name>APOSTOL TV (HD)</display-name></channel>
 <channel id="HU: ARENA4">
   <display-name>ARENA4</display-name>
@@ -41,6 +46,7 @@
   <display-name>HUN: ARENA4</display-name>
   <display-name>IHUI ARENA4</display-name>
   <display-name>┃HU┃ ARENA4</display-name>
+  <display-name>HU -  ARENA4</display-name>
   <display-name>ARENA4 (HD)</display-name></channel>
 <channel id="HU: ATV">
   <display-name>ATV</display-name>
@@ -48,6 +54,7 @@
   <display-name>HUN: ATV</display-name>
   <display-name>IHUI ATV</display-name>
   <display-name>┃HU┃ ATV</display-name>
+  <display-name>HU -  ATV</display-name>
   <display-name>ATV (HD)</display-name></channel>
 <channel id="HU: ATV EXTRA">
   <display-name>ATV EXTRA</display-name>
@@ -55,6 +62,7 @@
   <display-name>HUN: ATV EXTRA</display-name>
   <display-name>IHUI ATV EXTRA</display-name>
   <display-name>┃HU┃ ATV EXTRA</display-name>
+  <display-name>HU -  ATV EXTRA</display-name>
   <display-name>ATV EXTRA (HD)</display-name></channel>
 <channel id="HU: AUTO MOTOR SPORT">
   <display-name>AUTO MOTOR SPORT</display-name>
@@ -62,6 +70,7 @@
   <display-name>HUN: AUTO MOTOR SPORT</display-name>
   <display-name>IHUI AUTO MOTOR SPORT</display-name>
   <display-name>┃HU┃ AUTO MOTOR SPORT</display-name>
+  <display-name>HU -  AUTO MOTOR SPORT</display-name>
   <display-name>AUTO MOTOR SPORT (HD)</display-name></channel>
 <channel id="HU: AXN">
   <display-name>AXN</display-name>
@@ -69,6 +78,7 @@
   <display-name>HUN: AXN</display-name>
   <display-name>IHUI AXN</display-name>
   <display-name>┃HU┃ AXN</display-name>
+  <display-name>HU -  AXN</display-name>
   <display-name>AXN (HD)</display-name></channel>
 <channel id="HU: AXN CRIME">
   <display-name>AXN CRIME</display-name>
@@ -76,6 +86,7 @@
   <display-name>HUN: AXN CRIME</display-name>
   <display-name>IHUI AXN CRIME</display-name>
   <display-name>┃HU┃ AXN CRIME</display-name>
+  <display-name>HU -  AXN CRIME</display-name>
   <display-name>AXN CRIME (HD)</display-name></channel>
 <channel id="HU: BABY TV">
   <display-name>BABY TV</display-name>
@@ -83,6 +94,7 @@
   <display-name>HUN: BABY TV</display-name>
   <display-name>IHUI BABY TV</display-name>
   <display-name>┃HU┃ BABY TV</display-name>
+  <display-name>HU -  BABY TV</display-name>
   <display-name>BABY TV (HD)</display-name></channel>
 <channel id="HU: BALATON TV">
   <display-name>BALATON TV</display-name>
@@ -90,6 +102,7 @@
   <display-name>HUN: BALATON TV</display-name>
   <display-name>IHUI BALATON TV</display-name>
   <display-name>┃HU┃ BALATON TV</display-name>
+  <display-name>HU -  BALATON TV</display-name>
   <display-name>BALATON TV (HD)</display-name></channel>
 <channel id="HU: BARTÓK RÁDIÓ">
   <display-name>BARTÓK RÁDIÓ</display-name>
@@ -97,6 +110,7 @@
   <display-name>HUN: BARTÓK RÁDIÓ</display-name>
   <display-name>IHUI BARTÓK RÁDIÓ</display-name>
   <display-name>┃HU┃ BARTÓK RÁDIÓ</display-name>
+  <display-name>HU -  BARTÓK RÁDIÓ</display-name>
   <display-name>BARTÓK RÁDIÓ (HD)</display-name></channel>
 <channel id="HU: BBC EARTH">
   <display-name>BBC EARTH</display-name>
@@ -104,6 +118,7 @@
   <display-name>HUN: BBC EARTH</display-name>
   <display-name>IHUI BBC EARTH</display-name>
   <display-name>┃HU┃ BBC EARTH</display-name>
+  <display-name>HU -  BBC EARTH</display-name>
   <display-name>BBC EARTH (HD)</display-name></channel>
 <channel id="HU: BBC WORLD NEWS">
   <display-name>BBC WORLD NEWS</display-name>
@@ -111,6 +126,7 @@
   <display-name>HUN: BBC WORLD NEWS</display-name>
   <display-name>IHUI BBC WORLD NEWS</display-name>
   <display-name>┃HU┃ BBC WORLD NEWS</display-name>
+  <display-name>HU -  BBC WORLD NEWS</display-name>
   <display-name>BBC WORLD NEWS (HD)</display-name></channel>
 <channel id="HU: BUDAPEST TV HD">
   <display-name>BUDAPEST TV HD</display-name>
@@ -118,6 +134,7 @@
   <display-name>HUN: BUDAPEST TV HD</display-name>
   <display-name>IHUI BUDAPEST TV HD</display-name>
   <display-name>┃HU┃ BUDAPEST TV HD</display-name>
+  <display-name>HU -  BUDAPEST TV HD</display-name>
   <display-name>BUDAPEST TV HD (HD)</display-name></channel>
 <channel id="HU: CANAL+ ACTION">
   <display-name>CANAL+ ACTION</display-name>
@@ -125,6 +142,7 @@
   <display-name>HUN: CANAL+ ACTION</display-name>
   <display-name>IHUI CANAL+ ACTION</display-name>
   <display-name>┃HU┃ CANAL+ ACTION</display-name>
+  <display-name>HU -  CANAL+ ACTION</display-name>
   <display-name>CANAL+ ACTION (HD)</display-name></channel>
 <channel id="HU: CARTOON NETWORK">
   <display-name>CARTOON NETWORK</display-name>
@@ -132,6 +150,7 @@
   <display-name>HUN: CARTOON NETWORK</display-name>
   <display-name>IHUI CARTOON NETWORK</display-name>
   <display-name>┃HU┃ CARTOON NETWORK</display-name>
+  <display-name>HU -  CARTOON NETWORK</display-name>
   <display-name>CARTOON NETWORK (HD)</display-name></channel>
 <channel id="HU: CARTOONITO">
   <display-name>CARTOONITO</display-name>
@@ -139,6 +158,7 @@
   <display-name>HUN: CARTOONITO</display-name>
   <display-name>IHUI CARTOONITO</display-name>
   <display-name>┃HU┃ CARTOONITO</display-name>
+  <display-name>HU -  CARTOONITO</display-name>
   <display-name>CARTOONITO (HD)</display-name></channel>
 <channel id="HU: CINEMAX">
   <display-name>CINEMAX</display-name>
@@ -146,6 +166,7 @@
   <display-name>HUN: CINEMAX</display-name>
   <display-name>IHUI CINEMAX</display-name>
   <display-name>┃HU┃ CINEMAX</display-name>
+  <display-name>HU -  CINEMAX</display-name>
   <display-name>CINEMAX (HD)</display-name></channel>
 <channel id="HU: CINEMAX 2">
   <display-name>CINEMAX 2</display-name>
@@ -153,6 +174,7 @@
   <display-name>HUN: CINEMAX 2</display-name>
   <display-name>IHUI CINEMAX 2</display-name>
   <display-name>┃HU┃ CINEMAX 2</display-name>
+  <display-name>HU -  CINEMAX 2</display-name>
   <display-name>CINEMAX 2 (HD)</display-name></channel>
 <channel id="HU: CNBC">
   <display-name>CNBC</display-name>
@@ -160,6 +182,7 @@
   <display-name>HUN: CNBC</display-name>
   <display-name>IHUI CNBC</display-name>
   <display-name>┃HU┃ CNBC</display-name>
+  <display-name>HU -  CNBC</display-name>
   <display-name>CNBC (HD)</display-name></channel>
 <channel id="HU: CNN">
   <display-name>CNN</display-name>
@@ -167,6 +190,7 @@
   <display-name>HUN: CNN</display-name>
   <display-name>IHUI CNN</display-name>
   <display-name>┃HU┃ CNN</display-name>
+  <display-name>HU -  CNN</display-name>
   <display-name>CNN (HD)</display-name></channel>
 <channel id="HU: COOL">
   <display-name>COOL</display-name>
@@ -174,6 +198,7 @@
   <display-name>HUN: COOL</display-name>
   <display-name>IHUI COOL</display-name>
   <display-name>┃HU┃ COOL</display-name>
+  <display-name>HU -  COOL</display-name>
   <display-name>COOL (HD)</display-name></channel>
 <channel id="HU: CSUKÁS MESERÁDIÓ">
   <display-name>CSUKÁS MESERÁDIÓ</display-name>
@@ -181,6 +206,7 @@
   <display-name>HUN: CSUKÁS MESERÁDIÓ</display-name>
   <display-name>IHUI CSUKÁS MESERÁDIÓ</display-name>
   <display-name>┃HU┃ CSUKÁS MESERÁDIÓ</display-name>
+  <display-name>HU -  CSUKÁS MESERÁDIÓ</display-name>
   <display-name>CSUKÁS MESERÁDIÓ (HD)</display-name></channel>
 <channel id="HU: D1 TELEVÍZIÓ">
   <display-name>D1 TELEVÍZIÓ</display-name>
@@ -188,6 +214,7 @@
   <display-name>HUN: D1 TELEVÍZIÓ</display-name>
   <display-name>IHUI D1 TELEVÍZIÓ</display-name>
   <display-name>┃HU┃ D1 TELEVÍZIÓ</display-name>
+  <display-name>HU -  D1 TELEVÍZIÓ</display-name>
   <display-name>D1 TELEVÍZIÓ (HD)</display-name></channel>
 <channel id="HU: DA VINCI">
   <display-name>DA VINCI</display-name>
@@ -195,6 +222,7 @@
   <display-name>HUN: DA VINCI</display-name>
   <display-name>IHUI DA VINCI</display-name>
   <display-name>┃HU┃ DA VINCI</display-name>
+  <display-name>HU -  DA VINCI</display-name>
   <display-name>DA VINCI (HD)</display-name></channel>
 <channel id="HU: DANKÓ RÁDIÓ">
   <display-name>DANKÓ RÁDIÓ</display-name>
@@ -202,6 +230,7 @@
   <display-name>HUN: DANKÓ RÁDIÓ</display-name>
   <display-name>IHUI DANKÓ RÁDIÓ</display-name>
   <display-name>┃HU┃ DANKÓ RÁDIÓ</display-name>
+  <display-name>HU -  DANKÓ RÁDIÓ</display-name>
   <display-name>DANKÓ RÁDIÓ (HD)</display-name></channel>
 <channel id="HU: DEBRECEN TV">
   <display-name>DEBRECEN TV</display-name>
@@ -209,6 +238,7 @@
   <display-name>HUN: DEBRECEN TV</display-name>
   <display-name>IHUI DEBRECEN TV</display-name>
   <display-name>┃HU┃ DEBRECEN TV</display-name>
+  <display-name>HU -  DEBRECEN TV</display-name>
   <display-name>DEBRECEN TV (HD)</display-name></channel>
 <channel id="HU: DIKH TV">
   <display-name>DIKH TV</display-name>
@@ -216,6 +246,7 @@
   <display-name>HUN: DIKH TV</display-name>
   <display-name>IHUI DIKH TV</display-name>
   <display-name>┃HU┃ DIKH TV</display-name>
+  <display-name>HU -  DIKH TV</display-name>
   <display-name>DIKH TV (HD)</display-name></channel>
 <channel id="HU: DISCOVERY CHANNEL">
   <display-name>DISCOVERY CHANNEL</display-name>
@@ -223,6 +254,7 @@
   <display-name>HUN: DISCOVERY CHANNEL</display-name>
   <display-name>IHUI DISCOVERY CHANNEL</display-name>
   <display-name>┃HU┃ DISCOVERY CHANNEL</display-name>
+  <display-name>HU -  DISCOVERY CHANNEL</display-name>
   <display-name>DISCOVERY CHANNEL (HD)</display-name></channel>
 <channel id="HU: DISNEY CHANNEL">
   <display-name>DISNEY CHANNEL</display-name>
@@ -230,6 +262,7 @@
   <display-name>HUN: DISNEY CHANNEL</display-name>
   <display-name>IHUI DISNEY CHANNEL</display-name>
   <display-name>┃HU┃ DISNEY CHANNEL</display-name>
+  <display-name>HU -  DISNEY CHANNEL</display-name>
   <display-name>DISNEY CHANNEL (HD)</display-name></channel>
 <channel id="HU: DISNEY+ KIEMELT">
   <display-name>DISNEY+ KIEMELT</display-name>
@@ -237,6 +270,7 @@
   <display-name>HUN: DISNEY+ KIEMELT</display-name>
   <display-name>IHUI DISNEY+ KIEMELT</display-name>
   <display-name>┃HU┃ DISNEY+ KIEMELT</display-name>
+  <display-name>HU -  DISNEY+ KIEMELT</display-name>
   <display-name>DISNEY+ KIEMELT (HD)</display-name></channel>
 <channel id="HU: DOCUBOX">
   <display-name>DOCUBOX</display-name>
@@ -244,6 +278,7 @@
   <display-name>HUN: DOCUBOX</display-name>
   <display-name>IHUI DOCUBOX</display-name>
   <display-name>┃HU┃ DOCUBOX</display-name>
+  <display-name>HU -  DOCUBOX</display-name>
   <display-name>DOCUBOX (HD)</display-name></channel>
 <channel id="HU: DUCK TV HD">
   <display-name>DUCK TV HD</display-name>
@@ -251,6 +286,7 @@
   <display-name>HUN: DUCK TV HD</display-name>
   <display-name>IHUI DUCK TV HD</display-name>
   <display-name>┃HU┃ DUCK TV HD</display-name>
+  <display-name>HU -  DUCK TV HD</display-name>
   <display-name>DUCK TV HD (HD)</display-name></channel>
 <channel id="HU: DUCK TV">
   <display-name>DUCK TV</display-name>
@@ -258,6 +294,7 @@
   <display-name>HUN: DUCK TV</display-name>
   <display-name>IHUI DUCK TV</display-name>
   <display-name>┃HU┃ DUCK TV</display-name>
+  <display-name>HU -  DUCK TV</display-name>
   <display-name>DUCK TV (HD)</display-name></channel>
 <channel id="HU: DUNA">
   <display-name>DUNA</display-name>
@@ -265,6 +302,7 @@
   <display-name>HUN: DUNA</display-name>
   <display-name>IHUI DUNA</display-name>
   <display-name>┃HU┃ DUNA</display-name>
+  <display-name>HU -  DUNA</display-name>
   <display-name>DUNA (HD)</display-name></channel>
 <channel id="HU: DUNA WORLD">
   <display-name>DUNA WORLD</display-name>
@@ -272,6 +310,7 @@
   <display-name>HUN: DUNA WORLD</display-name>
   <display-name>IHUI DUNA WORLD</display-name>
   <display-name>┃HU┃ DUNA WORLD</display-name>
+  <display-name>HU -  DUNA WORLD</display-name>
   <display-name>DUNA WORLD (HD)</display-name></channel>
 <channel id="HU: E! ENTERTAINMENT">
   <display-name>E! ENTERTAINMENT</display-name>
@@ -279,6 +318,7 @@
   <display-name>HUN: E! ENTERTAINMENT</display-name>
   <display-name>IHUI E! ENTERTAINMENT</display-name>
   <display-name>┃HU┃ E! ENTERTAINMENT</display-name>
+  <display-name>HU -  E! ENTERTAINMENT</display-name>
   <display-name>E! ENTERTAINMENT (HD)</display-name></channel>
 <channel id="HU: ELSŐ KERÜLET TV HD">
   <display-name>ELSŐ KERÜLET TV HD</display-name>
@@ -286,6 +326,7 @@
   <display-name>HUN: ELSŐ KERÜLET TV HD</display-name>
   <display-name>IHUI ELSŐ KERÜLET TV HD</display-name>
   <display-name>┃HU┃ ELSŐ KERÜLET TV HD</display-name>
+  <display-name>HU -  ELSŐ KERÜLET TV HD</display-name>
   <display-name>ELSŐ KERÜLET TV HD (HD)</display-name></channel>
 <channel id="HU: ENGLISH CLUB TV">
   <display-name>ENGLISH CLUB TV</display-name>
@@ -293,6 +334,7 @@
   <display-name>HUN: ENGLISH CLUB TV</display-name>
   <display-name>IHUI ENGLISH CLUB TV</display-name>
   <display-name>┃HU┃ ENGLISH CLUB TV</display-name>
+  <display-name>HU -  ENGLISH CLUB TV</display-name>
   <display-name>ENGLISH CLUB TV (HD)</display-name></channel>
 <channel id="HU: ERDÉLY TV">
   <display-name>ERDÉLY TV</display-name>
@@ -300,6 +342,7 @@
   <display-name>HUN: ERDÉLY TV</display-name>
   <display-name>IHUI ERDÉLY TV</display-name>
   <display-name>┃HU┃ ERDÉLY TV</display-name>
+  <display-name>HU -  ERDÉLY TV</display-name>
   <display-name>ERDÉLY TV (HD)</display-name></channel>
 <channel id="HU: EURONEWS">
   <display-name>EURONEWS</display-name>
@@ -307,6 +350,7 @@
   <display-name>HUN: EURONEWS</display-name>
   <display-name>IHUI EURONEWS</display-name>
   <display-name>┃HU┃ EURONEWS</display-name>
+  <display-name>HU -  EURONEWS</display-name>
   <display-name>EURONEWS (HD)</display-name></channel>
 <channel id="HU: EUROSPORT 1">
   <display-name>EUROSPORT 1</display-name>
@@ -314,6 +358,7 @@
   <display-name>HUN: EUROSPORT 1</display-name>
   <display-name>IHUI EUROSPORT 1</display-name>
   <display-name>┃HU┃ EUROSPORT 1</display-name>
+  <display-name>HU -  EUROSPORT 1</display-name>
   <display-name>EUROSPORT 1 (HD)</display-name></channel>
 <channel id="HU: EUROSPORT 2">
   <display-name>EUROSPORT 2</display-name>
@@ -321,6 +366,7 @@
   <display-name>HUN: EUROSPORT 2</display-name>
   <display-name>IHUI EUROSPORT 2</display-name>
   <display-name>┃HU┃ EUROSPORT 2</display-name>
+  <display-name>HU -  EUROSPORT 2</display-name>
   <display-name>EUROSPORT 2 (HD)</display-name></channel>
 <channel id="HU: EUROSPORT 4K">
   <display-name>EUROSPORT 4K</display-name>
@@ -328,6 +374,7 @@
   <display-name>HUN: EUROSPORT 4K</display-name>
   <display-name>IHUI EUROSPORT 4K</display-name>
   <display-name>┃HU┃ EUROSPORT 4K</display-name>
+  <display-name>HU -  EUROSPORT 4K</display-name>
   <display-name>EUROSPORT 4K (HD)</display-name></channel>
 <channel id="HU: EWTN / BONUM TV">
   <display-name>EWTN / BONUM TV</display-name>
@@ -335,6 +382,7 @@
   <display-name>HUN: EWTN / BONUM TV</display-name>
   <display-name>IHUI EWTN / BONUM TV</display-name>
   <display-name>┃HU┃ EWTN / BONUM TV</display-name>
+  <display-name>HU -  EWTN / BONUM TV</display-name>
   <display-name>EWTN / BONUM TV (HD)</display-name></channel>
 <channel id="HU: EXTREME SPORTS CHANNEL">
   <display-name>EXTREME SPORTS CHANNEL</display-name>
@@ -342,6 +390,7 @@
   <display-name>HUN: EXTREME SPORTS CHANNEL</display-name>
   <display-name>IHUI EXTREME SPORTS CHANNEL</display-name>
   <display-name>┃HU┃ EXTREME SPORTS CHANNEL</display-name>
+  <display-name>HU -  EXTREME SPORTS CHANNEL</display-name>
   <display-name>EXTREME SPORTS CHANNEL (HD)</display-name></channel>
 <channel id="HU: FASHION TV HD">
   <display-name>FASHION TV HD</display-name>
@@ -349,6 +398,7 @@
   <display-name>HUN: FASHION TV HD</display-name>
   <display-name>IHUI FASHION TV HD</display-name>
   <display-name>┃HU┃ FASHION TV HD</display-name>
+  <display-name>HU -  FASHION TV HD</display-name>
   <display-name>FASHION TV HD (HD)</display-name></channel>
 <channel id="HU: FASHION TV">
   <display-name>FASHION TV</display-name>
@@ -356,6 +406,7 @@
   <display-name>HUN: FASHION TV</display-name>
   <display-name>IHUI FASHION TV</display-name>
   <display-name>┃HU┃ FASHION TV</display-name>
+  <display-name>HU -  FASHION TV</display-name>
   <display-name>FASHION TV (HD)</display-name></channel>
 <channel id="HU: FEHÉRVÁR TV">
   <display-name>FEHÉRVÁR TV</display-name>
@@ -363,6 +414,7 @@
   <display-name>HUN: FEHÉRVÁR TV</display-name>
   <display-name>IHUI FEHÉRVÁR TV</display-name>
   <display-name>┃HU┃ FEHÉRVÁR TV</display-name>
+  <display-name>HU -  FEHÉRVÁR TV</display-name>
   <display-name>FEHÉRVÁR TV (HD)</display-name></channel>
 <channel id="HU: FEM 3">
   <display-name>FEM 3</display-name>
@@ -370,6 +422,7 @@
   <display-name>HUN: FEM 3</display-name>
   <display-name>IHUI FEM 3</display-name>
   <display-name>┃HU┃ FEM 3</display-name>
+  <display-name>HU -  FEM 3</display-name>
   <display-name>FEM 3 (HD)</display-name></channel>
 <channel id="HU: FIGHTBOX HD">
   <display-name>FIGHTBOX HD</display-name>
@@ -377,6 +430,7 @@
   <display-name>HUN: FIGHTBOX HD</display-name>
   <display-name>IHUI FIGHTBOX HD</display-name>
   <display-name>┃HU┃ FIGHTBOX HD</display-name>
+  <display-name>HU -  FIGHTBOX HD</display-name>
   <display-name>FIGHTBOX HD (HD)</display-name></channel>
 <channel id="HU: FILM 4">
   <display-name>FILM 4</display-name>
@@ -384,6 +438,7 @@
   <display-name>HUN: FILM 4</display-name>
   <display-name>IHUI FILM 4</display-name>
   <display-name>┃HU┃ FILM 4</display-name>
+  <display-name>HU -  FILM 4</display-name>
   <display-name>FILM 4 (HD)</display-name></channel>
 <channel id="HU: FILM CAFE">
   <display-name>FILM CAFE</display-name>
@@ -391,6 +446,7 @@
   <display-name>HUN: FILM CAFE</display-name>
   <display-name>IHUI FILM CAFE</display-name>
   <display-name>┃HU┃ FILM CAFE</display-name>
+  <display-name>HU -  FILM CAFE</display-name>
   <display-name>FILM CAFE (HD)</display-name></channel>
 <channel id="HU: FILM MANIA">
   <display-name>FILM MANIA</display-name>
@@ -398,6 +454,7 @@
   <display-name>HUN: FILM MANIA</display-name>
   <display-name>IHUI FILM MANIA</display-name>
   <display-name>┃HU┃ FILM MANIA</display-name>
+  <display-name>HU -  FILM MANIA</display-name>
   <display-name>FILM MANIA (HD)</display-name></channel>
 <channel id="HU: FILM+">
   <display-name>FILM+</display-name>
@@ -405,6 +462,7 @@
   <display-name>HUN: FILM+</display-name>
   <display-name>IHUI FILM+</display-name>
   <display-name>┃HU┃ FILM+</display-name>
+  <display-name>HU -  FILM+</display-name>
   <display-name>FILM+ (HD)</display-name></channel>
 <channel id="HU: FILMBOX+ COMEDY">
   <display-name>FILMBOX+ COMEDY</display-name>
@@ -412,6 +470,7 @@
   <display-name>HUN: FILMBOX+ COMEDY</display-name>
   <display-name>IHUI FILMBOX+ COMEDY</display-name>
   <display-name>┃HU┃ FILMBOX+ COMEDY</display-name>
+  <display-name>HU -  FILMBOX+ COMEDY</display-name>
   <display-name>FILMBOX+ COMEDY (HD)</display-name></channel>
 <channel id="HU: FILMBOX+ EMOTION">
   <display-name>FILMBOX+ EMOTION</display-name>
@@ -419,6 +478,7 @@
   <display-name>HUN: FILMBOX+ EMOTION</display-name>
   <display-name>IHUI FILMBOX+ EMOTION</display-name>
   <display-name>┃HU┃ FILMBOX+ EMOTION</display-name>
+  <display-name>HU -  FILMBOX+ EMOTION</display-name>
   <display-name>FILMBOX+ EMOTION (HD)</display-name></channel>
 <channel id="HU: FILMBOX+ FESTIVAL">
   <display-name>FILMBOX+ FESTIVAL</display-name>
@@ -426,6 +486,7 @@
   <display-name>HUN: FILMBOX+ FESTIVAL</display-name>
   <display-name>IHUI FILMBOX+ FESTIVAL</display-name>
   <display-name>┃HU┃ FILMBOX+ FESTIVAL</display-name>
+  <display-name>HU -  FILMBOX+ FESTIVAL</display-name>
   <display-name>FILMBOX+ FESTIVAL (HD)</display-name></channel>
 <channel id="HU: FILMBOX+ HITS">
   <display-name>FILMBOX+ HITS</display-name>
@@ -433,6 +494,7 @@
   <display-name>HUN: FILMBOX+ HITS</display-name>
   <display-name>IHUI FILMBOX+ HITS</display-name>
   <display-name>┃HU┃ FILMBOX+ HITS</display-name>
+  <display-name>HU -  FILMBOX+ HITS</display-name>
   <display-name>FILMBOX+ HITS (HD)</display-name></channel>
 <channel id="HU: FILMBOX+ LOVE AND CRIME">
   <display-name>FILMBOX+ LOVE AND CRIME</display-name>
@@ -440,6 +502,7 @@
   <display-name>HUN: FILMBOX+ LOVE AND CRIME</display-name>
   <display-name>IHUI FILMBOX+ LOVE AND CRIME</display-name>
   <display-name>┃HU┃ FILMBOX+ LOVE AND CRIME</display-name>
+  <display-name>HU -  FILMBOX+ LOVE AND CRIME</display-name>
   <display-name>FILMBOX+ LOVE AND CRIME (HD)</display-name></channel>
 <channel id="HU: FILMBOX+ ONE">
   <display-name>FILMBOX+ ONE</display-name>
@@ -447,6 +510,7 @@
   <display-name>HUN: FILMBOX+ ONE</display-name>
   <display-name>IHUI FILMBOX+ ONE</display-name>
   <display-name>┃HU┃ FILMBOX+ ONE</display-name>
+  <display-name>HU -  FILMBOX+ ONE</display-name>
   <display-name>FILMBOX+ ONE (HD)</display-name></channel>
 <channel id="HU: FISHING AND HUNTING CHANNEL">
   <display-name>FISHING AND HUNTING CHANNEL</display-name>
@@ -454,6 +518,7 @@
   <display-name>HUN: FISHING AND HUNTING CHANNEL</display-name>
   <display-name>IHUI FISHING AND HUNTING CHANNEL</display-name>
   <display-name>┃HU┃ FISHING AND HUNTING CHANNEL</display-name>
+  <display-name>HU -  FISHING AND HUNTING CHANNEL</display-name>
   <display-name>FISHING AND HUNTING CHANNEL (HD)</display-name></channel>
 <channel id="HU: FIT HD">
   <display-name>FIT HD</display-name>
@@ -461,6 +526,7 @@
   <display-name>HUN: FIT HD</display-name>
   <display-name>IHUI FIT HD</display-name>
   <display-name>┃HU┃ FIT HD</display-name>
+  <display-name>HU -  FIT HD</display-name>
   <display-name>FIT HD (HD)</display-name></channel>
 <channel id="HU: FOOD NETWORK">
   <display-name>FOOD NETWORK</display-name>
@@ -468,6 +534,7 @@
   <display-name>HUN: FOOD NETWORK</display-name>
   <display-name>IHUI FOOD NETWORK</display-name>
   <display-name>┃HU┃ FOOD NETWORK</display-name>
+  <display-name>HU -  FOOD NETWORK</display-name>
   <display-name>FOOD NETWORK (HD)</display-name></channel>
 <channel id="HU: FUNBOX ULTRAHD 4K">
   <display-name>FUNBOX ULTRAHD 4K</display-name>
@@ -475,6 +542,7 @@
   <display-name>HUN: FUNBOX ULTRAHD 4K</display-name>
   <display-name>IHUI FUNBOX ULTRAHD 4K</display-name>
   <display-name>┃HU┃ FUNBOX ULTRAHD 4K</display-name>
+  <display-name>HU -  FUNBOX ULTRAHD 4K</display-name>
   <display-name>FUNBOX ULTRAHD 4K (HD)</display-name></channel>
 <channel id="HU: GALAXY4">
   <display-name>GALAXY4</display-name>
@@ -482,6 +550,7 @@
   <display-name>HUN: GALAXY4</display-name>
   <display-name>IHUI GALAXY4</display-name>
   <display-name>┃HU┃ GALAXY4</display-name>
+  <display-name>HU -  GALAXY4</display-name>
   <display-name>GALAXY4 (HD)</display-name></channel>
 <channel id="HU: GAMETOON">
   <display-name>GAMETOON</display-name>
@@ -489,6 +558,7 @@
   <display-name>HUN: GAMETOON</display-name>
   <display-name>IHUI GAMETOON</display-name>
   <display-name>┃HU┃ GAMETOON</display-name>
+  <display-name>HU -  GAMETOON</display-name>
   <display-name>GAMETOON (HD)</display-name></channel>
 <channel id="HU: GYÖNGYÖS TV HD">
   <display-name>GYÖNGYÖS TV HD</display-name>
@@ -496,6 +566,7 @@
   <display-name>HUN: GYÖNGYÖS TV HD</display-name>
   <display-name>IHUI GYÖNGYÖS TV HD</display-name>
   <display-name>┃HU┃ GYÖNGYÖS TV HD</display-name>
+  <display-name>HU -  GYÖNGYÖS TV HD</display-name>
   <display-name>GYÖNGYÖS TV HD (HD)</display-name></channel>
 <channel id="HU: HBO">
   <display-name>HBO</display-name>
@@ -503,6 +574,7 @@
   <display-name>HUN: HBO</display-name>
   <display-name>IHUI HBO</display-name>
   <display-name>┃HU┃ HBO</display-name>
+  <display-name>HU -  HBO</display-name>
   <display-name>HBO (HD)</display-name></channel>
 <channel id="HU: HBO 2">
   <display-name>HBO 2</display-name>
@@ -510,6 +582,7 @@
   <display-name>HUN: HBO 2</display-name>
   <display-name>IHUI HBO 2</display-name>
   <display-name>┃HU┃ HBO 2</display-name>
+  <display-name>HU -  HBO 2</display-name>
   <display-name>HBO 2 (HD)</display-name></channel>
 <channel id="HU: HBO 3">
   <display-name>HBO 3</display-name>
@@ -517,6 +590,7 @@
   <display-name>HUN: HBO 3</display-name>
   <display-name>IHUI HBO 3</display-name>
   <display-name>┃HU┃ HBO 3</display-name>
+  <display-name>HU -  HBO 3</display-name>
   <display-name>HBO 3 (HD)</display-name></channel>
 <channel id="HU: HEGYVIDÉK TV">
   <display-name>HEGYVIDÉK TV</display-name>
@@ -524,6 +598,7 @@
   <display-name>HUN: HEGYVIDÉK TV</display-name>
   <display-name>IHUI HEGYVIDÉK TV</display-name>
   <display-name>┃HU┃ HEGYVIDÉK TV</display-name>
+  <display-name>HU -  HEGYVIDÉK TV</display-name>
   <display-name>HEGYVIDÉK TV (HD)</display-name></channel>
 <channel id="HU: HETI TV">
   <display-name>HETI TV</display-name>
@@ -531,6 +606,7 @@
   <display-name>HUN: HETI TV</display-name>
   <display-name>IHUI HETI TV</display-name>
   <display-name>┃HU┃ HETI TV</display-name>
+  <display-name>HU -  HETI TV</display-name>
   <display-name>HETI TV (HD)</display-name></channel>
 <channel id="HU: HGTV">
   <display-name>HGTV</display-name>
@@ -538,6 +614,7 @@
   <display-name>HUN: HGTV</display-name>
   <display-name>IHUI HGTV</display-name>
   <display-name>┃HU┃ HGTV</display-name>
+  <display-name>HU -  HGTV</display-name>
   <display-name>HGTV (HD)</display-name></channel>
 <channel id="HU: HÍR TV">
   <display-name>HÍR TV</display-name>
@@ -545,6 +622,7 @@
   <display-name>HUN: HÍR TV</display-name>
   <display-name>IHUI HÍR TV</display-name>
   <display-name>┃HU┃ HÍR TV</display-name>
+  <display-name>HU -  HÍR TV</display-name>
   <display-name>HÍR TV (HD)</display-name></channel>
 <channel id="HU: HISTORY">
   <display-name>HISTORY</display-name>
@@ -552,6 +630,7 @@
   <display-name>HUN: HISTORY</display-name>
   <display-name>IHUI HISTORY</display-name>
   <display-name>┃HU┃ HISTORY</display-name>
+  <display-name>HU -  HISTORY</display-name>
   <display-name>HISTORY (HD)</display-name></channel>
 <channel id="HU: ID">
   <display-name>ID</display-name>
@@ -559,6 +638,7 @@
   <display-name>HUN: ID</display-name>
   <display-name>IHUI ID</display-name>
   <display-name>┃HU┃ ID</display-name>
+  <display-name>HU -  ID</display-name>
   <display-name>ID (HD)</display-name></channel>
 <channel id="HU: IZAURA TV">
   <display-name>IZAURA TV</display-name>
@@ -566,6 +646,7 @@
   <display-name>HUN: IZAURA TV</display-name>
   <display-name>IHUI IZAURA TV</display-name>
   <display-name>┃HU┃ IZAURA TV</display-name>
+  <display-name>HU -  IZAURA TV</display-name>
   <display-name>IZAURA TV (HD)</display-name></channel>
 <channel id="HU: JAZZ TV">
   <display-name>JAZZ TV</display-name>
@@ -573,6 +654,7 @@
   <display-name>HUN: JAZZ TV</display-name>
   <display-name>IHUI JAZZ TV</display-name>
   <display-name>┃HU┃ JAZZ TV</display-name>
+  <display-name>HU -  JAZZ TV</display-name>
   <display-name>JAZZ TV (HD)</display-name></channel>
 <channel id="HU: JIMJAM">
   <display-name>JIMJAM</display-name>
@@ -580,6 +662,7 @@
   <display-name>HUN: JIMJAM</display-name>
   <display-name>IHUI JIMJAM</display-name>
   <display-name>┃HU┃ JIMJAM</display-name>
+  <display-name>HU -  JIMJAM</display-name>
   <display-name>JIMJAM (HD)</display-name></channel>
 <channel id="HU: JOCKY TV">
   <display-name>JOCKY TV</display-name>
@@ -587,6 +670,7 @@
   <display-name>HUN: JOCKY TV</display-name>
   <display-name>IHUI JOCKY TV</display-name>
   <display-name>┃HU┃ JOCKY TV</display-name>
+  <display-name>HU -  JOCKY TV</display-name>
   <display-name>JOCKY TV (HD)</display-name></channel>
 <channel id="HU: KAPOS TV">
   <display-name>KAPOS TV</display-name>
@@ -594,6 +678,7 @@
   <display-name>HUN: KAPOS TV</display-name>
   <display-name>IHUI KAPOS TV</display-name>
   <display-name>┃HU┃ KAPOS TV</display-name>
+  <display-name>HU -  KAPOS TV</display-name>
   <display-name>KAPOS TV (HD)</display-name></channel>
 <channel id="HU: KÖLYÖK KLUB">
   <display-name>KÖLYÖK KLUB</display-name>
@@ -601,6 +686,7 @@
   <display-name>HUN: KÖLYÖK KLUB</display-name>
   <display-name>IHUI KÖLYÖK KLUB</display-name>
   <display-name>┃HU┃ KÖLYÖK KLUB</display-name>
+  <display-name>HU -  KÖLYÖK KLUB</display-name>
   <display-name>KÖLYÖK KLUB (HD)</display-name></channel>
 <channel id="HU: KOSSUTH RÁDIÓ">
   <display-name>KOSSUTH RÁDIÓ</display-name>
@@ -608,6 +694,7 @@
   <display-name>HUN: KOSSUTH RÁDIÓ</display-name>
   <display-name>IHUI KOSSUTH RÁDIÓ</display-name>
   <display-name>┃HU┃ KOSSUTH RÁDIÓ</display-name>
+  <display-name>HU -  KOSSUTH RÁDIÓ</display-name>
   <display-name>KOSSUTH RÁDIÓ (HD)</display-name></channel>
 <channel id="HU: LIFE TV">
   <display-name>LIFE TV</display-name>
@@ -615,6 +702,7 @@
   <display-name>HUN: LIFE TV</display-name>
   <display-name>IHUI LIFE TV</display-name>
   <display-name>┃HU┃ LIFE TV</display-name>
+  <display-name>HU -  LIFE TV</display-name>
   <display-name>LIFE TV (HD)</display-name></channel>
 <channel id="HU: LOVE NATURE (HD / 4K)">
   <display-name>LOVE NATURE (HD / 4K)</display-name>
@@ -622,6 +710,7 @@
   <display-name>HUN: LOVE NATURE (HD / 4K)</display-name>
   <display-name>IHUI LOVE NATURE (HD / 4K)</display-name>
   <display-name>┃HU┃ LOVE NATURE (HD / 4K)</display-name>
+  <display-name>HU -  LOVE NATURE (HD / 4K)</display-name>
   <display-name>LOVE NATURE (HD / 4K) (HD)</display-name></channel>
 <channel id="HU: M1">
   <display-name>M1</display-name>
@@ -629,6 +718,7 @@
   <display-name>HUN: M1</display-name>
   <display-name>IHUI M1</display-name>
   <display-name>┃HU┃ M1</display-name>
+  <display-name>HU -  M1</display-name>
   <display-name>M1 (HD)</display-name></channel>
 <channel id="HU: M2">
   <display-name>M2</display-name>
@@ -636,6 +726,7 @@
   <display-name>HUN: M2</display-name>
   <display-name>IHUI M2</display-name>
   <display-name>┃HU┃ M2</display-name>
+  <display-name>HU -  M2</display-name>
   <display-name>M2 (HD)</display-name></channel>
 <channel id="HU: M3 (ONLINE)">
   <display-name>M3 (ONLINE)</display-name>
@@ -643,6 +734,7 @@
   <display-name>HUN: M3 (ONLINE)</display-name>
   <display-name>IHUI M3 (ONLINE)</display-name>
   <display-name>┃HU┃ M3 (ONLINE)</display-name>
+  <display-name>HU -  M3 (ONLINE)</display-name>
   <display-name>M3 (ONLINE) (HD)</display-name></channel>
 <channel id="HU: M4">
   <display-name>M4</display-name>
@@ -650,6 +742,7 @@
   <display-name>HUN: M4</display-name>
   <display-name>IHUI M4</display-name>
   <display-name>┃HU┃ M4</display-name>
+  <display-name>HU -  M4</display-name>
   <display-name>M4 (HD)</display-name></channel>
 <channel id="HU: M4 SPORT+">
   <display-name>M4 SPORT+</display-name>
@@ -657,6 +750,7 @@
   <display-name>HUN: M4 SPORT+</display-name>
   <display-name>IHUI M4 SPORT+</display-name>
   <display-name>┃HU┃ M4 SPORT+</display-name>
+  <display-name>HU -  M4 SPORT+</display-name>
   <display-name>M4 SPORT+ (HD)</display-name></channel>
 <channel id="HU: M5">
   <display-name>M5</display-name>
@@ -664,6 +758,7 @@
   <display-name>HUN: M5</display-name>
   <display-name>IHUI M5</display-name>
   <display-name>┃HU┃ M5</display-name>
+  <display-name>HU -  M5</display-name>
   <display-name>M5 (HD)</display-name></channel>
 <channel id="HU: MAGYAR MOZI TV">
   <display-name>MAGYAR MOZI TV</display-name>
@@ -671,6 +766,7 @@
   <display-name>HUN: MAGYAR MOZI TV</display-name>
   <display-name>IHUI MAGYAR MOZI TV</display-name>
   <display-name>┃HU┃ MAGYAR MOZI TV</display-name>
+  <display-name>HU -  MAGYAR MOZI TV</display-name>
   <display-name>MAGYAR MOZI TV (HD)</display-name></channel>
 <channel id="HU: MATCH4">
   <display-name>MATCH4</display-name>
@@ -678,6 +774,7 @@
   <display-name>HUN: MATCH4</display-name>
   <display-name>IHUI MATCH4</display-name>
   <display-name>┃HU┃ MATCH4</display-name>
+  <display-name>HU -  MATCH4</display-name>
   <display-name>MATCH4 (HD)</display-name></channel>
 <channel id="HU: MAX 4">
   <display-name>MAX 4</display-name>
@@ -685,6 +782,7 @@
   <display-name>HUN: MAX 4</display-name>
   <display-name>IHUI MAX 4</display-name>
   <display-name>┃HU┃ MAX 4</display-name>
+  <display-name>HU -  MAX 4</display-name>
   <display-name>MAX 4 (HD)</display-name></channel>
 <channel id="HU: MAX">
   <display-name>MAX</display-name>
@@ -692,6 +790,7 @@
   <display-name>HUN: MAX</display-name>
   <display-name>IHUI MAX</display-name>
   <display-name>┃HU┃ MAX</display-name>
+  <display-name>HU -  MAX</display-name>
   <display-name>MAX (HD)</display-name></channel>
 <channel id="HU: MEZZO">
   <display-name>MEZZO</display-name>
@@ -699,6 +798,7 @@
   <display-name>HUN: MEZZO</display-name>
   <display-name>IHUI MEZZO</display-name>
   <display-name>┃HU┃ MEZZO</display-name>
+  <display-name>HU -  MEZZO</display-name>
   <display-name>MEZZO (HD)</display-name></channel>
 <channel id="HU: MEZZO LIVE HD">
   <display-name>MEZZO LIVE HD</display-name>
@@ -706,6 +806,7 @@
   <display-name>HUN: MEZZO LIVE HD</display-name>
   <display-name>IHUI MEZZO LIVE HD</display-name>
   <display-name>┃HU┃ MEZZO LIVE HD</display-name>
+  <display-name>HU -  MEZZO LIVE HD</display-name>
   <display-name>MEZZO LIVE HD (HD)</display-name></channel>
 <channel id="HU: MINIMAX">
   <display-name>MINIMAX</display-name>
@@ -713,6 +814,7 @@
   <display-name>HUN: MINIMAX</display-name>
   <display-name>IHUI MINIMAX</display-name>
   <display-name>┃HU┃ MINIMAX</display-name>
+  <display-name>HU -  MINIMAX</display-name>
   <display-name>MINIMAX (HD)</display-name></channel>
 <channel id="HU: MOZI KLUB">
   <display-name>MOZI KLUB</display-name>
@@ -720,6 +822,7 @@
   <display-name>HUN: MOZI KLUB</display-name>
   <display-name>IHUI MOZI KLUB</display-name>
   <display-name>┃HU┃ MOZI KLUB</display-name>
+  <display-name>HU -  MOZI KLUB</display-name>
   <display-name>MOZI KLUB (HD)</display-name></channel>
 <channel id="HU: MOZI+">
   <display-name>MOZI+</display-name>
@@ -727,18 +830,21 @@
   <display-name>HUN: MOZI+</display-name>
   <display-name>IHUI MOZI+</display-name>
   <display-name>┃HU┃ MOZI+</display-name>
+  <display-name>HU -  MOZI+</display-name>
   <display-name>MOZI+ (HD)</display-name>
   <display-name>MOZI</display-name>
   <display-name>HU: MOZI</display-name>
   <display-name>HUN: MOZI</display-name>
   <display-name>IHUI MOZI</display-name>
   <display-name>┃HU┃ MOZI</display-name>
+  <display-name>HU -  MOZI</display-name>
   <display-name>MOZI (HD)</display-name>
   <display-name>MOZI PLUS</display-name>
   <display-name>HU: MOZI PLUS</display-name>
   <display-name>HUN: MOZI PLUS</display-name>
   <display-name>IHUI MOZI PLUS</display-name>
   <display-name>┃HU┃ MOZI PLUS</display-name>
+  <display-name>HU -  MOZI PLUS</display-name>
   <display-name>MOZI PLUS (HD)</display-name></channel>
 <channel id="HU: MOZIVERZUM">
   <display-name>MOZIVERZUM</display-name>
@@ -746,6 +852,7 @@
   <display-name>HUN: MOZIVERZUM</display-name>
   <display-name>IHUI MOZIVERZUM</display-name>
   <display-name>┃HU┃ MOZIVERZUM</display-name>
+  <display-name>HU -  MOZIVERZUM</display-name>
   <display-name>MOZIVERZUM (HD)</display-name></channel>
 <channel id="HU: MTV HUNGARY">
   <display-name>MTV HUNGARY</display-name>
@@ -753,6 +860,7 @@
   <display-name>HUN: MTV HUNGARY</display-name>
   <display-name>IHUI MTV HUNGARY</display-name>
   <display-name>┃HU┃ MTV HUNGARY</display-name>
+  <display-name>HU -  MTV HUNGARY</display-name>
   <display-name>MTV HUNGARY (HD)</display-name></channel>
 <channel id="HU: MUSIC MIX HUNGARY">
   <display-name>MUSIC MIX HUNGARY</display-name>
@@ -760,6 +868,7 @@
   <display-name>HUN: MUSIC MIX HUNGARY</display-name>
   <display-name>IHUI MUSIC MIX HUNGARY</display-name>
   <display-name>┃HU┃ MUSIC MIX HUNGARY</display-name>
+  <display-name>HU -  MUSIC MIX HUNGARY</display-name>
   <display-name>MUSIC MIX HUNGARY (HD)</display-name></channel>
 <channel id="HU: MUZSIKA TV">
   <display-name>MUZSIKA TV</display-name>
@@ -767,6 +876,7 @@
   <display-name>HUN: MUZSIKA TV</display-name>
   <display-name>IHUI MUZSIKA TV</display-name>
   <display-name>┃HU┃ MUZSIKA TV</display-name>
+  <display-name>HU -  MUZSIKA TV</display-name>
   <display-name>MUZSIKA TV (HD)</display-name></channel>
 <channel id="HU: NATIONAL GEOGRAPHIC">
   <display-name>NATIONAL GEOGRAPHIC</display-name>
@@ -774,6 +884,7 @@
   <display-name>HUN: NATIONAL GEOGRAPHIC</display-name>
   <display-name>IHUI NATIONAL GEOGRAPHIC</display-name>
   <display-name>┃HU┃ NATIONAL GEOGRAPHIC</display-name>
+  <display-name>HU -  NATIONAL GEOGRAPHIC</display-name>
   <display-name>NATIONAL GEOGRAPHIC (HD)</display-name></channel>
 <channel id="HU: NATIONAL GEOGRAPHIC WILD">
   <display-name>NATIONAL GEOGRAPHIC WILD</display-name>
@@ -781,6 +892,7 @@
   <display-name>HUN: NATIONAL GEOGRAPHIC WILD</display-name>
   <display-name>IHUI NATIONAL GEOGRAPHIC WILD</display-name>
   <display-name>┃HU┃ NATIONAL GEOGRAPHIC WILD</display-name>
+  <display-name>HU -  NATIONAL GEOGRAPHIC WILD</display-name>
   <display-name>NATIONAL GEOGRAPHIC WILD (HD)</display-name></channel>
 <channel id="HU: NAUTICAL CHANNEL">
   <display-name>NAUTICAL CHANNEL</display-name>
@@ -788,6 +900,7 @@
   <display-name>HUN: NAUTICAL CHANNEL</display-name>
   <display-name>IHUI NAUTICAL CHANNEL</display-name>
   <display-name>┃HU┃ NAUTICAL CHANNEL</display-name>
+  <display-name>HU -  NAUTICAL CHANNEL</display-name>
   <display-name>NAUTICAL CHANNEL (HD)</display-name></channel>
 <channel id="HU: NEMZETI SPORT RÁDIÓ">
   <display-name>NEMZETI SPORT RÁDIÓ</display-name>
@@ -795,6 +908,7 @@
   <display-name>HUN: NEMZETI SPORT RÁDIÓ</display-name>
   <display-name>IHUI NEMZETI SPORT RÁDIÓ</display-name>
   <display-name>┃HU┃ NEMZETI SPORT RÁDIÓ</display-name>
+  <display-name>HU -  NEMZETI SPORT RÁDIÓ</display-name>
   <display-name>NEMZETI SPORT RÁDIÓ (HD)</display-name></channel>
 <channel id="HU: NEMZETISÉGI ADÁSOK">
   <display-name>NEMZETISÉGI ADÁSOK</display-name>
@@ -802,6 +916,7 @@
   <display-name>HUN: NEMZETISÉGI ADÁSOK</display-name>
   <display-name>IHUI NEMZETISÉGI ADÁSOK</display-name>
   <display-name>┃HU┃ NEMZETISÉGI ADÁSOK</display-name>
+  <display-name>HU -  NEMZETISÉGI ADÁSOK</display-name>
   <display-name>NEMZETISÉGI ADÁSOK (HD)</display-name></channel>
 <channel id="HU: NESHAMA TV">
   <display-name>NESHAMA TV</display-name>
@@ -809,6 +924,7 @@
   <display-name>HUN: NESHAMA TV</display-name>
   <display-name>IHUI NESHAMA TV</display-name>
   <display-name>┃HU┃ NESHAMA TV</display-name>
+  <display-name>HU -  NESHAMA TV</display-name>
   <display-name>NESHAMA TV (HD)</display-name></channel>
 <channel id="HU: NETFLIX ORIGINAL">
   <display-name>NETFLIX ORIGINAL</display-name>
@@ -816,6 +932,7 @@
   <display-name>HUN: NETFLIX ORIGINAL</display-name>
   <display-name>IHUI NETFLIX ORIGINAL</display-name>
   <display-name>┃HU┃ NETFLIX ORIGINAL</display-name>
+  <display-name>HU -  NETFLIX ORIGINAL</display-name>
   <display-name>NETFLIX ORIGINAL (HD)</display-name></channel>
 <channel id="HU: NETWORK 4 (NET4+ SPORT)">
   <display-name>NETWORK 4 (NET4+ SPORT)</display-name>
@@ -823,6 +940,7 @@
   <display-name>HUN: NETWORK 4 (NET4+ SPORT)</display-name>
   <display-name>IHUI NETWORK 4 (NET4+ SPORT)</display-name>
   <display-name>┃HU┃ NETWORK 4 (NET4+ SPORT)</display-name>
+  <display-name>HU -  NETWORK 4 (NET4+ SPORT)</display-name>
   <display-name>NETWORK 4 (NET4+ SPORT) (HD)</display-name></channel>
 <channel id="HU: NICK JR">
   <display-name>NICK JR</display-name>
@@ -830,6 +948,7 @@
   <display-name>HUN: NICK JR</display-name>
   <display-name>IHUI NICK JR</display-name>
   <display-name>┃HU┃ NICK JR</display-name>
+  <display-name>HU -  NICK JR</display-name>
   <display-name>NICK JR (HD)</display-name></channel>
 <channel id="HU: NICKELODEON">
   <display-name>NICKELODEON</display-name>
@@ -837,6 +956,7 @@
   <display-name>HUN: NICKELODEON</display-name>
   <display-name>IHUI NICKELODEON</display-name>
   <display-name>┃HU┃ NICKELODEON</display-name>
+  <display-name>HU -  NICKELODEON</display-name>
   <display-name>NICKELODEON (HD)</display-name></channel>
 <channel id="HU: NICKTOONS">
   <display-name>NICKTOONS</display-name>
@@ -844,6 +964,7 @@
   <display-name>HUN: NICKTOONS</display-name>
   <display-name>IHUI NICKTOONS</display-name>
   <display-name>┃HU┃ NICKTOONS</display-name>
+  <display-name>HU -  NICKTOONS</display-name>
   <display-name>NICKTOONS (HD)</display-name></channel>
 <channel id="HU: OZONE NETWORK">
   <display-name>OZONE NETWORK</display-name>
@@ -851,6 +972,7 @@
   <display-name>HUN: OZONE NETWORK</display-name>
   <display-name>IHUI OZONE NETWORK</display-name>
   <display-name>┃HU┃ OZONE NETWORK</display-name>
+  <display-name>HU -  OZONE NETWORK</display-name>
   <display-name>OZONE NETWORK (HD)</display-name></channel>
 <channel id="HU: PANNON TV (VAJDASÁG)">
   <display-name>PANNON TV (VAJDASÁG)</display-name>
@@ -858,6 +980,7 @@
   <display-name>HUN: PANNON TV (VAJDASÁG)</display-name>
   <display-name>IHUI PANNON TV (VAJDASÁG)</display-name>
   <display-name>┃HU┃ PANNON TV (VAJDASÁG)</display-name>
+  <display-name>HU -  PANNON TV (VAJDASÁG)</display-name>
   <display-name>PANNON TV (VAJDASÁG) (HD)</display-name></channel>
 <channel id="HU: PAX TV">
   <display-name>PAX TV</display-name>
@@ -865,6 +988,7 @@
   <display-name>HUN: PAX TV</display-name>
   <display-name>IHUI PAX TV</display-name>
   <display-name>┃HU┃ PAX TV</display-name>
+  <display-name>HU -  PAX TV</display-name>
   <display-name>PAX TV (HD)</display-name></channel>
 <channel id="HU: PETŐFI RÁDIÓ">
   <display-name>PETŐFI RÁDIÓ</display-name>
@@ -872,6 +996,7 @@
   <display-name>HUN: PETŐFI RÁDIÓ</display-name>
   <display-name>IHUI PETŐFI RÁDIÓ</display-name>
   <display-name>┃HU┃ PETŐFI RÁDIÓ</display-name>
+  <display-name>HU -  PETŐFI RÁDIÓ</display-name>
   <display-name>PETŐFI RÁDIÓ (HD)</display-name></channel>
 <channel id="HU: PRIME">
   <display-name>PRIME</display-name>
@@ -879,6 +1004,7 @@
   <display-name>HUN: PRIME</display-name>
   <display-name>IHUI PRIME</display-name>
   <display-name>┃HU┃ PRIME</display-name>
+  <display-name>HU -  PRIME</display-name>
   <display-name>PRIME (HD)</display-name></channel>
 <channel id="HU: RTL KLUB">
   <display-name>RTL KLUB</display-name>
@@ -886,6 +1012,7 @@
   <display-name>HUN: RTL KLUB</display-name>
   <display-name>IHUI RTL KLUB</display-name>
   <display-name>┃HU┃ RTL KLUB</display-name>
+  <display-name>HU -  RTL KLUB</display-name>
   <display-name>RTL KLUB (HD)</display-name></channel>
 <channel id="HU: RTL GOLD">
   <display-name>RTL GOLD</display-name>
@@ -893,6 +1020,7 @@
   <display-name>HUN: RTL GOLD</display-name>
   <display-name>IHUI RTL GOLD</display-name>
   <display-name>┃HU┃ RTL GOLD</display-name>
+  <display-name>HU -  RTL GOLD</display-name>
   <display-name>RTL GOLD (HD)</display-name></channel>
 <channel id="HU: RTL HÁROM">
   <display-name>RTL HÁROM</display-name>
@@ -900,6 +1028,7 @@
   <display-name>HUN: RTL HÁROM</display-name>
   <display-name>IHUI RTL HÁROM</display-name>
   <display-name>┃HU┃ RTL HÁROM</display-name>
+  <display-name>HU -  RTL HÁROM</display-name>
   <display-name>RTL HÁROM (HD)</display-name></channel>
 <channel id="HU: RTL II">
   <display-name>RTL II</display-name>
@@ -907,6 +1036,7 @@
   <display-name>HUN: RTL II</display-name>
   <display-name>IHUI RTL II</display-name>
   <display-name>┃HU┃ RTL II</display-name>
+  <display-name>HU -  RTL II</display-name>
   <display-name>RTL II (HD)</display-name></channel>
 <channel id="HU: RTL OTTHON">
   <display-name>RTL OTTHON</display-name>
@@ -914,6 +1044,7 @@
   <display-name>HUN: RTL OTTHON</display-name>
   <display-name>IHUI RTL OTTHON</display-name>
   <display-name>┃HU┃ RTL OTTHON</display-name>
+  <display-name>HU -  RTL OTTHON</display-name>
   <display-name>RTL OTTHON (HD)</display-name></channel>
 <channel id="HU: RTL+">
   <display-name>RTL+</display-name>
@@ -921,24 +1052,28 @@
   <display-name>HUN: RTL+</display-name>
   <display-name>IHUI RTL+</display-name>
   <display-name>┃HU┃ RTL+</display-name>
+  <display-name>HU -  RTL+</display-name>
   <display-name>RTL+ (HD)</display-name>
   <display-name>RTL +</display-name>
   <display-name>HU: RTL +</display-name>
   <display-name>HUN: RTL +</display-name>
   <display-name>IHUI RTL +</display-name>
   <display-name>┃HU┃ RTL +</display-name>
+  <display-name>HU -  RTL +</display-name>
   <display-name>RTL + (HD)</display-name>
   <display-name>RTL PLUS</display-name>
   <display-name>HU: RTL PLUS</display-name>
   <display-name>HUN: RTL PLUS</display-name>
   <display-name>IHUI RTL PLUS</display-name>
   <display-name>┃HU┃ RTL PLUS</display-name>
+  <display-name>HU -  RTL PLUS</display-name>
   <display-name>RTL PLUS (HD)</display-name>
   <display-name>RTLPLUS</display-name>
   <display-name>HU: RTLPLUS</display-name>
   <display-name>HUN: RTLPLUS</display-name>
   <display-name>IHUI RTLPLUS</display-name>
   <display-name>┃HU┃ RTLPLUS</display-name>
+  <display-name>HU -  RTLPLUS</display-name>
   <display-name>RTLPLUS (HD)</display-name></channel>
 <channel id="HU: SKY NEWS">
   <display-name>SKY NEWS</display-name>
@@ -946,6 +1081,7 @@
   <display-name>HUN: SKY NEWS</display-name>
   <display-name>IHUI SKY NEWS</display-name>
   <display-name>┃HU┃ SKY NEWS</display-name>
+  <display-name>HU -  SKY NEWS</display-name>
   <display-name>SKY NEWS (HD)</display-name></channel>
 <channel id="HU: SKYSHOWTIME KIEMELT">
   <display-name>SKYSHOWTIME KIEMELT</display-name>
@@ -953,6 +1089,7 @@
   <display-name>HUN: SKYSHOWTIME KIEMELT</display-name>
   <display-name>IHUI SKYSHOWTIME KIEMELT</display-name>
   <display-name>┃HU┃ SKYSHOWTIME KIEMELT</display-name>
+  <display-name>HU -  SKYSHOWTIME KIEMELT</display-name>
   <display-name>SKYSHOWTIME KIEMELT (HD)</display-name></channel>
 <channel id="HU: SLAGER TV">
   <display-name>SLAGER TV</display-name>
@@ -960,6 +1097,7 @@
   <display-name>HUN: SLAGER TV</display-name>
   <display-name>IHUI SLAGER TV</display-name>
   <display-name>┃HU┃ SLAGER TV</display-name>
+  <display-name>HU -  SLAGER TV</display-name>
   <display-name>SLAGER TV (HD)</display-name></channel>
 <channel id="HU: SOROZAT KLUB">
   <display-name>SOROZAT KLUB</display-name>
@@ -967,6 +1105,7 @@
   <display-name>HUN: SOROZAT KLUB</display-name>
   <display-name>IHUI SOROZAT KLUB</display-name>
   <display-name>┃HU┃ SOROZAT KLUB</display-name>
+  <display-name>HU -  SOROZAT KLUB</display-name>
   <display-name>SOROZAT KLUB (HD)</display-name></channel>
 <channel id="HU: SOROZAT+">
   <display-name>SOROZAT+</display-name>
@@ -974,6 +1113,7 @@
   <display-name>HUN: SOROZAT+</display-name>
   <display-name>IHUI SOROZAT+</display-name>
   <display-name>┃HU┃ SOROZAT+</display-name>
+  <display-name>HU -  SOROZAT+</display-name>
   <display-name>SOROZAT+ (HD)</display-name></channel>
 <channel id="HU: SPEKTRUM">
   <display-name>SPEKTRUM</display-name>
@@ -981,6 +1121,7 @@
   <display-name>HUN: SPEKTRUM</display-name>
   <display-name>IHUI SPEKTRUM</display-name>
   <display-name>┃HU┃ SPEKTRUM</display-name>
+  <display-name>HU -  SPEKTRUM</display-name>
   <display-name>SPEKTRUM (HD)</display-name></channel>
 <channel id="HU: SPEKTRUM HOME">
   <display-name>SPEKTRUM HOME</display-name>
@@ -988,6 +1129,7 @@
   <display-name>HUN: SPEKTRUM HOME</display-name>
   <display-name>IHUI SPEKTRUM HOME</display-name>
   <display-name>┃HU┃ SPEKTRUM HOME</display-name>
+  <display-name>HU -  SPEKTRUM HOME</display-name>
   <display-name>SPEKTRUM HOME (HD)</display-name></channel>
 <channel id="HU: SPEKTRUM HOME+ (MINDIG TV)">
   <display-name>SPEKTRUM HOME+ (MINDIG TV)</display-name>
@@ -995,6 +1137,7 @@
   <display-name>HUN: SPEKTRUM HOME+ (MINDIG TV)</display-name>
   <display-name>IHUI SPEKTRUM HOME+ (MINDIG TV)</display-name>
   <display-name>┃HU┃ SPEKTRUM HOME+ (MINDIG TV)</display-name>
+  <display-name>HU -  SPEKTRUM HOME+ (MINDIG TV)</display-name>
   <display-name>SPEKTRUM HOME+ (MINDIG TV) (HD)</display-name></channel>
 <channel id="HU: SPÍLER1 TV">
   <display-name>SPÍLER1 TV</display-name>
@@ -1002,6 +1145,7 @@
   <display-name>HUN: SPÍLER1 TV</display-name>
   <display-name>IHUI SPÍLER1 TV</display-name>
   <display-name>┃HU┃ SPÍLER1 TV</display-name>
+  <display-name>HU -  SPÍLER1 TV</display-name>
   <display-name>SPÍLER1 TV (HD)</display-name></channel>
 <channel id="HU: SPÍLER2 TV">
   <display-name>SPÍLER2 TV</display-name>
@@ -1009,6 +1153,7 @@
   <display-name>HUN: SPÍLER2 TV</display-name>
   <display-name>IHUI SPÍLER2 TV</display-name>
   <display-name>┃HU┃ SPÍLER2 TV</display-name>
+  <display-name>HU -  SPÍLER2 TV</display-name>
   <display-name>SPÍLER2 TV (HD)</display-name></channel>
 <channel id="HU: SPORT 1">
   <display-name>SPORT 1</display-name>
@@ -1016,6 +1161,7 @@
   <display-name>HUN: SPORT 1</display-name>
   <display-name>IHUI SPORT 1</display-name>
   <display-name>┃HU┃ SPORT 1</display-name>
+  <display-name>HU -  SPORT 1</display-name>
   <display-name>SPORT 1 (HD)</display-name></channel>
 <channel id="HU: SPORT 2">
   <display-name>SPORT 2</display-name>
@@ -1023,6 +1169,7 @@
   <display-name>HUN: SPORT 2</display-name>
   <display-name>IHUI SPORT 2</display-name>
   <display-name>┃HU┃ SPORT 2</display-name>
+  <display-name>HU -  SPORT 2</display-name>
   <display-name>SPORT 2 (HD)</display-name></channel>
 <channel id="HU: SPORT 3 (SELEKT)">
   <display-name>SPORT 3 (SELEKT)</display-name>
@@ -1030,6 +1177,7 @@
   <display-name>HUN: SPORT 3 (SELEKT)</display-name>
   <display-name>IHUI SPORT 3 (SELEKT)</display-name>
   <display-name>┃HU┃ SPORT 3 (SELEKT)</display-name>
+  <display-name>HU -  SPORT 3 (SELEKT)</display-name>
   <display-name>SPORT 3 (SELEKT) (HD)</display-name></channel>
 <channel id="HU: STINGRAY C MUSIC">
   <display-name>STINGRAY C MUSIC</display-name>
@@ -1037,6 +1185,7 @@
   <display-name>HUN: STINGRAY C MUSIC</display-name>
   <display-name>IHUI STINGRAY C MUSIC</display-name>
   <display-name>┃HU┃ STINGRAY C MUSIC</display-name>
+  <display-name>HU -  STINGRAY C MUSIC</display-name>
   <display-name>STINGRAY C MUSIC (HD)</display-name></channel>
 <channel id="HU: STINGRAY CLASSICA HD">
   <display-name>STINGRAY CLASSICA HD</display-name>
@@ -1044,6 +1193,7 @@
   <display-name>HUN: STINGRAY CLASSICA HD</display-name>
   <display-name>IHUI STINGRAY CLASSICA HD</display-name>
   <display-name>┃HU┃ STINGRAY CLASSICA HD</display-name>
+  <display-name>HU -  STINGRAY CLASSICA HD</display-name>
   <display-name>STINGRAY CLASSICA HD (HD)</display-name></channel>
 <channel id="HU: STINGRAY ICONCERTS HD">
   <display-name>STINGRAY ICONCERTS HD</display-name>
@@ -1051,6 +1201,7 @@
   <display-name>HUN: STINGRAY ICONCERTS HD</display-name>
   <display-name>IHUI STINGRAY ICONCERTS HD</display-name>
   <display-name>┃HU┃ STINGRAY ICONCERTS HD</display-name>
+  <display-name>HU -  STINGRAY ICONCERTS HD</display-name>
   <display-name>STINGRAY ICONCERTS HD (HD)</display-name></channel>
 <channel id="HU: STORY 4">
   <display-name>STORY 4</display-name>
@@ -1058,6 +1209,7 @@
   <display-name>HUN: STORY 4</display-name>
   <display-name>IHUI STORY 4</display-name>
   <display-name>┃HU┃ STORY 4</display-name>
+  <display-name>HU -  STORY 4</display-name>
   <display-name>STORY 4 (HD)</display-name></channel>
 <channel id="HU: SUPER TV2">
   <display-name>SUPER TV2</display-name>
@@ -1065,6 +1217,7 @@
   <display-name>HUN: SUPER TV2</display-name>
   <display-name>IHUI SUPER TV2</display-name>
   <display-name>┃HU┃ SUPER TV2</display-name>
+  <display-name>HU -  SUPER TV2</display-name>
   <display-name>SUPER TV2 (HD)</display-name></channel>
 <channel id="HU: SWEET.TV">
   <display-name>SWEET.TV</display-name>
@@ -1072,6 +1225,7 @@
   <display-name>HUN: SWEET.TV</display-name>
   <display-name>IHUI SWEET.TV</display-name>
   <display-name>┃HU┃ SWEET.TV</display-name>
+  <display-name>HU -  SWEET.TV</display-name>
   <display-name>SWEET.TV (HD)</display-name></channel>
 <channel id="HU: SZAKCSI RÁDIÓ">
   <display-name>SZAKCSI RÁDIÓ</display-name>
@@ -1079,6 +1233,7 @@
   <display-name>HUN: SZAKCSI RÁDIÓ</display-name>
   <display-name>IHUI SZAKCSI RÁDIÓ</display-name>
   <display-name>┃HU┃ SZAKCSI RÁDIÓ</display-name>
+  <display-name>HU -  SZAKCSI RÁDIÓ</display-name>
   <display-name>SZAKCSI RÁDIÓ (HD)</display-name></channel>
 <channel id="HU: SZEGED TV">
   <display-name>SZEGED TV</display-name>
@@ -1086,6 +1241,7 @@
   <display-name>HUN: SZEGED TV</display-name>
   <display-name>IHUI SZEGED TV</display-name>
   <display-name>┃HU┃ SZEGED TV</display-name>
+  <display-name>HU -  SZEGED TV</display-name>
   <display-name>SZEGED TV (HD)</display-name></channel>
 <channel id="HU: TLC">
   <display-name>TLC</display-name>
@@ -1093,6 +1249,7 @@
   <display-name>HUN: TLC</display-name>
   <display-name>IHUI TLC</display-name>
   <display-name>┃HU┃ TLC</display-name>
+  <display-name>HU -  TLC</display-name>
   <display-name>TLC (HD)</display-name></channel>
 <channel id="HU: TOTAL DANCE TV">
   <display-name>TOTAL DANCE TV</display-name>
@@ -1100,6 +1257,7 @@
   <display-name>HUN: TOTAL DANCE TV</display-name>
   <display-name>IHUI TOTAL DANCE TV</display-name>
   <display-name>┃HU┃ TOTAL DANCE TV</display-name>
+  <display-name>HU -  TOTAL DANCE TV</display-name>
   <display-name>TOTAL DANCE TV (HD)</display-name></channel>
 <channel id="HU: TRACE SPORT STARS HD">
   <display-name>TRACE SPORT STARS HD</display-name>
@@ -1107,6 +1265,7 @@
   <display-name>HUN: TRACE SPORT STARS HD</display-name>
   <display-name>IHUI TRACE SPORT STARS HD</display-name>
   <display-name>┃HU┃ TRACE SPORT STARS HD</display-name>
+  <display-name>HU -  TRACE SPORT STARS HD</display-name>
   <display-name>TRACE SPORT STARS HD (HD)</display-name></channel>
 <channel id="HU: TRACE URBAN">
   <display-name>TRACE URBAN</display-name>
@@ -1114,6 +1273,7 @@
   <display-name>HUN: TRACE URBAN</display-name>
   <display-name>IHUI TRACE URBAN</display-name>
   <display-name>┃HU┃ TRACE URBAN</display-name>
+  <display-name>HU -  TRACE URBAN</display-name>
   <display-name>TRACE URBAN (HD)</display-name></channel>
 <channel id="HU: TRAVEL CHANNEL">
   <display-name>TRAVEL CHANNEL</display-name>
@@ -1121,6 +1281,7 @@
   <display-name>HUN: TRAVEL CHANNEL</display-name>
   <display-name>IHUI TRAVEL CHANNEL</display-name>
   <display-name>┃HU┃ TRAVEL CHANNEL</display-name>
+  <display-name>HU -  TRAVEL CHANNEL</display-name>
   <display-name>TRAVEL CHANNEL (HD)</display-name></channel>
 <channel id="HU: TRAVEL XP">
   <display-name>TRAVEL XP</display-name>
@@ -1128,6 +1289,7 @@
   <display-name>HUN: TRAVEL XP</display-name>
   <display-name>IHUI TRAVEL XP</display-name>
   <display-name>┃HU┃ TRAVEL XP</display-name>
+  <display-name>HU -  TRAVEL XP</display-name>
   <display-name>TRAVEL XP (HD)</display-name></channel>
 <channel id="HU: TRAVEL XP 4K">
   <display-name>TRAVEL XP 4K</display-name>
@@ -1135,6 +1297,7 @@
   <display-name>HUN: TRAVEL XP 4K</display-name>
   <display-name>IHUI TRAVEL XP 4K</display-name>
   <display-name>┃HU┃ TRAVEL XP 4K</display-name>
+  <display-name>HU -  TRAVEL XP 4K</display-name>
   <display-name>TRAVEL XP 4K (HD)</display-name></channel>
 <channel id="HU: TV 4">
   <display-name>TV 4</display-name>
@@ -1142,12 +1305,14 @@
   <display-name>HUN: TV 4</display-name>
   <display-name>IHUI TV 4</display-name>
   <display-name>┃HU┃ TV 4</display-name>
+  <display-name>HU -  TV 4</display-name>
   <display-name>TV 4 (HD)</display-name>
   <display-name>TV4</display-name>
   <display-name>HU: TV4</display-name>
   <display-name>HUN: TV4</display-name>
   <display-name>IHUI TV4</display-name>
   <display-name>┃HU┃ TV4</display-name>
+  <display-name>HU -  TV4</display-name>
   <display-name>TV4 (HD)</display-name></channel>
 <channel id="HU: TV EGER">
   <display-name>TV EGER</display-name>
@@ -1155,6 +1320,7 @@
   <display-name>HUN: TV EGER</display-name>
   <display-name>IHUI TV EGER</display-name>
   <display-name>┃HU┃ TV EGER</display-name>
+  <display-name>HU -  TV EGER</display-name>
   <display-name>TV EGER (HD)</display-name></channel>
 <channel id="HU: TV PAPRIKA">
   <display-name>TV PAPRIKA</display-name>
@@ -1162,6 +1328,7 @@
   <display-name>HUN: TV PAPRIKA</display-name>
   <display-name>IHUI TV PAPRIKA</display-name>
   <display-name>┃HU┃ TV PAPRIKA</display-name>
+  <display-name>HU -  TV PAPRIKA</display-name>
   <display-name>TV PAPRIKA (HD)</display-name></channel>
 <channel id="HU: TV1000 RUSSIAN KINO">
   <display-name>TV1000 RUSSIAN KINO</display-name>
@@ -1169,6 +1336,7 @@
   <display-name>HUN: TV1000 RUSSIAN KINO</display-name>
   <display-name>IHUI TV1000 RUSSIAN KINO</display-name>
   <display-name>┃HU┃ TV1000 RUSSIAN KINO</display-name>
+  <display-name>HU -  TV1000 RUSSIAN KINO</display-name>
   <display-name>TV1000 RUSSIAN KINO (HD)</display-name></channel>
 <channel id="HU: TV2">
   <display-name>TV2</display-name>
@@ -1176,6 +1344,7 @@
   <display-name>HUN: TV2</display-name>
   <display-name>IHUI TV2</display-name>
   <display-name>┃HU┃ TV2</display-name>
+  <display-name>HU -  TV2</display-name>
   <display-name>TV2 (HD)</display-name></channel>
 <channel id="HU: TV2 COMEDY">
   <display-name>TV2 COMEDY</display-name>
@@ -1183,6 +1352,7 @@
   <display-name>HUN: TV2 COMEDY</display-name>
   <display-name>IHUI TV2 COMEDY</display-name>
   <display-name>┃HU┃ TV2 COMEDY</display-name>
+  <display-name>HU -  TV2 COMEDY</display-name>
   <display-name>TV2 COMEDY (HD)</display-name></channel>
 <channel id="HU: TV2 KIDS">
   <display-name>TV2 KIDS</display-name>
@@ -1190,6 +1360,7 @@
   <display-name>HUN: TV2 KIDS</display-name>
   <display-name>IHUI TV2 KIDS</display-name>
   <display-name>┃HU┃ TV2 KIDS</display-name>
+  <display-name>HU -  TV2 KIDS</display-name>
   <display-name>TV2 KIDS (HD)</display-name></channel>
 <channel id="HU: TV2 SÉF">
   <display-name>TV2 SÉF</display-name>
@@ -1197,24 +1368,28 @@
   <display-name>HUN: TV2 SÉF</display-name>
   <display-name>IHUI TV2 SÉF</display-name>
   <display-name>┃HU┃ TV2 SÉF</display-name>
+  <display-name>HU -  TV2 SÉF</display-name>
   <display-name>TV2 SÉF (HD)</display-name>
   <display-name>TV2 SEF</display-name>
   <display-name>HU: TV2 SEF</display-name>
   <display-name>HUN: TV2 SEF</display-name>
   <display-name>IHUI TV2 SEF</display-name>
   <display-name>┃HU┃ TV2 SEF</display-name>
+  <display-name>HU -  TV2 SEF</display-name>
   <display-name>TV2 SEF (HD)</display-name>
   <display-name>TV2SEF</display-name>
   <display-name>HU: TV2SEF</display-name>
   <display-name>HUN: TV2SEF</display-name>
   <display-name>IHUI TV2SEF</display-name>
   <display-name>┃HU┃ TV2SEF</display-name>
+  <display-name>HU -  TV2SEF</display-name>
   <display-name>TV2SEF (HD)</display-name>
   <display-name>TV2SÉF</display-name>
   <display-name>HU: TV2SÉF</display-name>
   <display-name>HUN: TV2SÉF</display-name>
   <display-name>IHUI TV2SÉF</display-name>
   <display-name>┃HU┃ TV2SÉF</display-name>
+  <display-name>HU -  TV2SÉF</display-name>
   <display-name>TV2SÉF (HD)</display-name></channel>
 <channel id="HU: ÚJBUDA TV">
   <display-name>ÚJBUDA TV</display-name>
@@ -1222,6 +1397,7 @@
   <display-name>HUN: ÚJBUDA TV</display-name>
   <display-name>IHUI ÚJBUDA TV</display-name>
   <display-name>┃HU┃ ÚJBUDA TV</display-name>
+  <display-name>HU -  ÚJBUDA TV</display-name>
   <display-name>ÚJBUDA TV (HD)</display-name></channel>
 <channel id="HU: VÁSÁRHELYI TELEVÍZIÓ">
   <display-name>VÁSÁRHELYI TELEVÍZIÓ</display-name>
@@ -1229,6 +1405,7 @@
   <display-name>HUN: VÁSÁRHELYI TELEVÍZIÓ</display-name>
   <display-name>IHUI VÁSÁRHELYI TELEVÍZIÓ</display-name>
   <display-name>┃HU┃ VÁSÁRHELYI TELEVÍZIÓ</display-name>
+  <display-name>HU -  VÁSÁRHELYI TELEVÍZIÓ</display-name>
   <display-name>VÁSÁRHELYI TELEVÍZIÓ (HD)</display-name></channel>
 <channel id="HU: VESZPRÉM TV HD">
   <display-name>VESZPRÉM TV HD</display-name>
@@ -1236,6 +1413,7 @@
   <display-name>HUN: VESZPRÉM TV HD</display-name>
   <display-name>IHUI VESZPRÉM TV HD</display-name>
   <display-name>┃HU┃ VESZPRÉM TV HD</display-name>
+  <display-name>HU -  VESZPRÉM TV HD</display-name>
   <display-name>VESZPRÉM TV HD (HD)</display-name></channel>
 <channel id="HU: VIASAT 2">
   <display-name>VIASAT 2</display-name>
@@ -1243,6 +1421,7 @@
   <display-name>HUN: VIASAT 2</display-name>
   <display-name>IHUI VIASAT 2</display-name>
   <display-name>┃HU┃ VIASAT 2</display-name>
+  <display-name>HU -  VIASAT 2</display-name>
   <display-name>VIASAT 2 (HD)</display-name></channel>
 <channel id="HU: VIASAT 3">
   <display-name>VIASAT 3</display-name>
@@ -1250,6 +1429,7 @@
   <display-name>HUN: VIASAT 3</display-name>
   <display-name>IHUI VIASAT 3</display-name>
   <display-name>┃HU┃ VIASAT 3</display-name>
+  <display-name>HU -  VIASAT 3</display-name>
   <display-name>VIASAT 3 (HD)</display-name></channel>
 <channel id="HU: VIASAT 6">
   <display-name>VIASAT 6</display-name>
@@ -1257,6 +1437,7 @@
   <display-name>HUN: VIASAT 6</display-name>
   <display-name>IHUI VIASAT 6</display-name>
   <display-name>┃HU┃ VIASAT 6</display-name>
+  <display-name>HU -  VIASAT 6</display-name>
   <display-name>VIASAT 6 (HD)</display-name></channel>
 <channel id="HU: VIASAT EPIC DRAMA">
   <display-name>VIASAT EPIC DRAMA</display-name>
@@ -1264,6 +1445,7 @@
   <display-name>HUN: VIASAT EPIC DRAMA</display-name>
   <display-name>IHUI VIASAT EPIC DRAMA</display-name>
   <display-name>┃HU┃ VIASAT EPIC DRAMA</display-name>
+  <display-name>HU -  VIASAT EPIC DRAMA</display-name>
   <display-name>VIASAT EPIC DRAMA (HD)</display-name></channel>
 <channel id="HU: VIASAT EXPLORE">
   <display-name>VIASAT EXPLORE</display-name>
@@ -1271,6 +1453,7 @@
   <display-name>HUN: VIASAT EXPLORE</display-name>
   <display-name>IHUI VIASAT EXPLORE</display-name>
   <display-name>┃HU┃ VIASAT EXPLORE</display-name>
+  <display-name>HU -  VIASAT EXPLORE</display-name>
   <display-name>VIASAT EXPLORE (HD)</display-name></channel>
 <channel id="HU: VIASAT HISTORY">
   <display-name>VIASAT HISTORY</display-name>
@@ -1278,6 +1461,7 @@
   <display-name>HUN: VIASAT HISTORY</display-name>
   <display-name>IHUI VIASAT HISTORY</display-name>
   <display-name>┃HU┃ VIASAT HISTORY</display-name>
+  <display-name>HU -  VIASAT HISTORY</display-name>
   <display-name>VIASAT HISTORY (HD)</display-name></channel>
 <channel id="HU: VIASAT NATURE">
   <display-name>VIASAT NATURE</display-name>
@@ -1285,6 +1469,7 @@
   <display-name>HUN: VIASAT NATURE</display-name>
   <display-name>IHUI VIASAT NATURE</display-name>
   <display-name>┃HU┃ VIASAT NATURE</display-name>
+  <display-name>HU -  VIASAT NATURE</display-name>
   <display-name>VIASAT NATURE (HD)</display-name></channel>
 <channel id="HU: ZALAEGERSZEGI TV">
   <display-name>ZALAEGERSZEGI TV</display-name>
@@ -1292,6 +1477,7 @@
   <display-name>HUN: ZALAEGERSZEGI TV</display-name>
   <display-name>IHUI ZALAEGERSZEGI TV</display-name>
   <display-name>┃HU┃ ZALAEGERSZEGI TV</display-name>
+  <display-name>HU -  ZALAEGERSZEGI TV</display-name>
   <display-name>ZALAEGERSZEGI TV (HD)</display-name></channel>
 <channel id="HU: ZENEBUTIK TV">
   <display-name>ZENEBUTIK TV</display-name>
@@ -1299,6 +1485,7 @@
   <display-name>HUN: ZENEBUTIK TV</display-name>
   <display-name>IHUI ZENEBUTIK TV</display-name>
   <display-name>┃HU┃ ZENEBUTIK TV</display-name>
+  <display-name>HU -  ZENEBUTIK TV</display-name>
   <display-name>ZENEBUTIK TV (HD)</display-name></channel>
 
 
