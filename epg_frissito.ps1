@@ -8,6 +8,7 @@ $outputGz = "friss_epg.xml.gz"
 $temp = "temp_epg.dat"
 $xmlTemp = "temp_part.xml"
 
+
 $allChannels = ""
 $allProgrammes = ""
 
@@ -62,8 +63,9 @@ $newContent = [regex]::Replace($newContent, '(?i)(?<prefix>id="|channel="|<displ
 $newContent = [regex]::Replace($newContent, '(?i)(?<prefix>id="|channel="|<display-name[^>]*>)HU:\s*RTL\s+KETT(Ő|Ö|O)(?<suffix>"|</display-name>)', '${prefix}HU: RTL II${suffix}')
 $newContent = [regex]::Replace($newContent, '(?i)(?<prefix>id="|channel="|<display-name[^>]*>)HU:\s*RTL(?<suffix>"|</display-name>)', '${prefix}HU: RTL KLUB${suffix}')
 $newContent = [regex]::Replace($newContent, '(?i)(?<prefix>id="|channel="|<display-name[^>]*>)HU:\s*SL(Á|A)GER\s+TV(?<suffix>"|</display-name>)', '${prefix}HU: SLAGER TV${suffix}')
+$newContent = [regex]::Replace($newContent, '(?i)(?<prefix>id="|channel="|<display-name[^>]*>)HU:\s*MOZI\s*(\+|PLUS)(?<suffix>"|</display-name>)', '${prefix}HU: MOZI+${suffix}')
 
-# 3. Duplikált csatornák kiszűrése és a 6 <display-name> variáció generálása
+# 3. Duplikált csatornák kiszűrése és névvariációk generálása (Mozi+ extra nevekkel)
 $seenChannels = @{}
 $channelPattern = '(?s)<channel[^>]*id="HU:\s*(?<cname>[^"]+)"[^>]*>(?<inner>.*?)</channel>'
 $newContent = [regex]::Replace($newContent, $channelPattern, {
@@ -75,16 +77,26 @@ $newContent = [regex]::Replace($newContent, $channelPattern, {
     $seenChannels[$baseName] = $true
 
     $inner = [regex]::Replace($m.Groups['inner'].Value, '(?s)\s*<display-name[^>]*>.*?</display-name>', '')
-    $names = "`r`n  <display-name>$baseName</display-name>" +
-             "`r`n  <display-name>HU: $baseName</display-name>" +
-             "`r`n  <display-name>HUN: $baseName</display-name>" +
-             "`r`n  <display-name>IHUI $baseName</display-name>" +
-             "`r`n  <display-name>┃HU┃ $baseName</display-name>" +
-             "`r`n  <display-name>$baseName (HD)</display-name>"
+    
+    $aliases = @($baseName)
+    if ($baseName -eq "MOZI+") {
+        $aliases = @("MOZI+", "MOZI", "MOZI PLUS")
+    }
+
+    $names = ""
+    foreach ($alias in $aliases) {
+        $names += "`r`n  <display-name>$alias</display-name>" +
+                  "`r`n  <display-name>HU: $alias</display-name>" +
+                  "`r`n  <display-name>HUN: $alias</display-name>" +
+                  "`r`n  <display-name>IHUI $alias</display-name>" +
+                  "`r`n  <display-name>┃HU┃ $alias</display-name>" +
+                  "`r`n  <display-name>$alias (HD)</display-name>"
+    }
+
     return "<channel id=`"HU: $baseName`">$names$inner</channel>"
 })
 
-# 4. Duplikált műsorok kiszűrése (azonos csatorna + azonos kezdési időpont alapján)
+# 4. Duplikált műsorok kiszűrése
 $seenProgrammes = @{}
 $progPattern = '(?s)<programme[^>]*start="(?<start>[^"]+)"[^>]*channel="(?<chan>[^"]+)"[^>]*>.*?</programme>'
 $newContent = [regex]::Replace($newContent, $progPattern, {
@@ -106,3 +118,4 @@ $gzipWriter = New-Object System.IO.Compression.GzipStream $outGzStream, ([IO.Com
 $gzipWriter.Write($rawBytes, 0, $rawBytes.Length)
 $gzipWriter.Close()
 $outGzStream.Close()
+
