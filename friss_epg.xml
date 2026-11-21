@@ -921,7 +921,25 @@
   <display-name>HUN: RTL+</display-name>
   <display-name>IHUI RTL+</display-name>
   <display-name>┃HU┃ RTL+</display-name>
-  <display-name>RTL+ (HD)</display-name></channel>
+  <display-name>RTL+ (HD)</display-name>
+  <display-name>RTL +</display-name>
+  <display-name>HU: RTL +</display-name>
+  <display-name>HUN: RTL +</display-name>
+  <display-name>IHUI RTL +</display-name>
+  <display-name>┃HU┃ RTL +</display-name>
+  <display-name>RTL + (HD)</display-name>
+  <display-name>RTL PLUS</display-name>
+  <display-name>HU: RTL PLUS</display-name>
+  <display-name>HUN: RTL PLUS</display-name>
+  <display-name>IHUI RTL PLUS</display-name>
+  <display-name>┃HU┃ RTL PLUS</display-name>
+  <display-name>RTL PLUS (HD)</display-name>
+  <display-name>RTLPLUS</display-name>
+  <display-name>HU: RTLPLUS</display-name>
+  <display-name>HUN: RTLPLUS</display-name>
+  <display-name>IHUI RTLPLUS</display-name>
+  <display-name>┃HU┃ RTLPLUS</display-name>
+  <display-name>RTLPLUS (HD)</display-name></channel>
 <channel id="HU: SKY NEWS">
   <display-name>SKY NEWS</display-name>
   <display-name>HU: SKY NEWS</display-name>
@@ -1124,7 +1142,13 @@
   <display-name>HUN: TV 4</display-name>
   <display-name>IHUI TV 4</display-name>
   <display-name>┃HU┃ TV 4</display-name>
-  <display-name>TV 4 (HD)</display-name></channel>
+  <display-name>TV 4 (HD)</display-name>
+  <display-name>TV4</display-name>
+  <display-name>HU: TV4</display-name>
+  <display-name>HUN: TV4</display-name>
+  <display-name>IHUI TV4</display-name>
+  <display-name>┃HU┃ TV4</display-name>
+  <display-name>TV4 (HD)</display-name></channel>
 <channel id="HU: TV EGER">
   <display-name>TV EGER</display-name>
   <display-name>HU: TV EGER</display-name>
@@ -1173,7 +1197,25 @@
   <display-name>HUN: TV2 SÉF</display-name>
   <display-name>IHUI TV2 SÉF</display-name>
   <display-name>┃HU┃ TV2 SÉF</display-name>
-  <display-name>TV2 SÉF (HD)</display-name></channel>
+  <display-name>TV2 SÉF (HD)</display-name>
+  <display-name>TV2 SEF</display-name>
+  <display-name>HU: TV2 SEF</display-name>
+  <display-name>HUN: TV2 SEF</display-name>
+  <display-name>IHUI TV2 SEF</display-name>
+  <display-name>┃HU┃ TV2 SEF</display-name>
+  <display-name>TV2 SEF (HD)</display-name>
+  <display-name>TV2SEF</display-name>
+  <display-name>HU: TV2SEF</display-name>
+  <display-name>HUN: TV2SEF</display-name>
+  <display-name>IHUI TV2SEF</display-name>
+  <display-name>┃HU┃ TV2SEF</display-name>
+  <display-name>TV2SEF (HD)</display-name>
+  <display-name>TV2SÉF</display-name>
+  <display-name>HU: TV2SÉF</display-name>
+  <display-name>HUN: TV2SÉF</display-name>
+  <display-name>IHUI TV2SÉF</display-name>
+  <display-name>┃HU┃ TV2SÉF</display-name>
+  <display-name>TV2SÉF (HD)</display-name></channel>
 <channel id="HU: ÚJBUDA TV">
   <display-name>ÚJBUDA TV</display-name>
   <display-name>HU: ÚJBUDA TV</display-name>
