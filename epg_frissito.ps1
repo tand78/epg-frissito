@@ -1,6 +1,6 @@
 $urls = @(
     $env:DROPBOX_EPG_URL,
-    "http://open-epg.com"
+    "http://www.open-epg.com/files/hungary1.xml.gz"
 )
 
 $output = "friss_epg.xml"
