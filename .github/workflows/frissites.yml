@@ -25,6 +25,6 @@ jobs:
           rm -f temp_epg.dat temp_part.xml
           git config user.name "EPG Bot"
           git config user.email "bot@github.com"
-          git add friss_epg.xml
+          git add friss_epg.xml friss_epg.xml.gz
           git commit -m "EPG frissitve" || exit 0
           git push
