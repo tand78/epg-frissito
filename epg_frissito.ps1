@@ -8,7 +8,6 @@ $outputGz = "friss_epg.xml.gz"
 $temp = "temp_epg.dat"
 $xmlTemp = "temp_part.xml"
 
-
 $allChannels = ""
 $allProgrammes = ""
 
@@ -51,7 +50,7 @@ $content = "<?xml version=`"1.0`" encoding=`"UTF-8`"?>`r`n<tv>$allChannels$allPr
 $pattern = '(?i)(?<prefix>id="|channel="|<display-name[^>]*>)(?:HU:\s*)?(?<name>[^"<]+?)(?:\s*(?:\(HD\)|\.hu))*\s*(?<suffix>"|</display-name>)'
 $newContent = [regex]::Replace($content, $pattern, { param($m) return $m.Groups['prefix'].Value + "HU: " + $m.Groups['name'].Value.Trim().ToUpper() + $m.Groups['suffix'].Value })
 
-# 2. Minden egyedi csatornanév-csere
+# 2. Minden egyedi csatornanév-csere (egységes alapazonosítóra hozás)
 $newContent = [regex]::Replace($newContent, '(?i)(?<prefix>id="|channel="|<display-name[^>]*>)HU:\s*M2\b[^"<]*PET[^"<]*(?<suffix>"|</display-name>)', '${prefix}HU: M2${suffix}')
 $newContent = [regex]::Replace($newContent, '(?i)(?<prefix>id="|channel="|<display-name[^>]*>)HU:\s*DUNA\s+TV(?<suffix>"|</display-name>)', '${prefix}HU: DUNA${suffix}')
 $newContent = [regex]::Replace($newContent, '(?i)(?<prefix>id="|channel="|<display-name[^>]*>)HU:\s*FEM\s*3(?<suffix>"|</display-name>)', '${prefix}HU: FEM 3${suffix}')
@@ -64,8 +63,12 @@ $newContent = [regex]::Replace($newContent, '(?i)(?<prefix>id="|channel="|<displ
 $newContent = [regex]::Replace($newContent, '(?i)(?<prefix>id="|channel="|<display-name[^>]*>)HU:\s*RTL(?<suffix>"|</display-name>)', '${prefix}HU: RTL KLUB${suffix}')
 $newContent = [regex]::Replace($newContent, '(?i)(?<prefix>id="|channel="|<display-name[^>]*>)HU:\s*SL(Á|A)GER\s+TV(?<suffix>"|</display-name>)', '${prefix}HU: SLAGER TV${suffix}')
 $newContent = [regex]::Replace($newContent, '(?i)(?<prefix>id="|channel="|<display-name[^>]*>)HU:\s*MOZI\s*(\+|PLUS)(?<suffix>"|</display-name>)', '${prefix}HU: MOZI+${suffix}')
+$newContent = [regex]::Replace($newContent, '(?i)(?<prefix>id="|channel="|<display-name[^>]*>)HU:\s*TV2\s*S(É|E)F(?<suffix>"|</display-name>)', '${prefix}HU: TV2 SÉF${suffix}')
+$newContent = [regex]::Replace($newContent, '(?i)(?<prefix>id="|channel="|<display-name[^>]*>)HU:\s*TV\s*4(?<suffix>"|</display-name>)', '${prefix}HU: TV 4${suffix}')
+$newContent = [regex]::Replace($newContent, '(?i)(?<prefix>id="|channel="|<display-name[^>]*>)HU:\s*(THE\s+)?FISHING\s*(&amp;|&|AND)\s*HUNTING(?<suffix>"|</display-name>)', '${prefix}HU: FISHING AND HUNTING${suffix}')
+$newContent = [regex]::Replace($newContent, '(?i)(?<prefix>id="|channel="|<display-name[^>]*>)HU:\s*RTL\s*(\+|PLUS)(?<suffix>"|</display-name>)', '${prefix}HU: RTL+${suffix}')
 
-# 3. Duplikált csatornák kiszűrése és névvariációk generálása (Mozi+ extra nevekkel)
+# 3. Duplikált csatornák kiszűrése és többes névvariációk generálása
 $seenChannels = @{}
 $channelPattern = '(?s)<channel[^>]*id="HU:\s*(?<cname>[^"]+)"[^>]*>(?<inner>.*?)</channel>'
 $newContent = [regex]::Replace($newContent, $channelPattern, {
@@ -79,8 +82,12 @@ $newContent = [regex]::Replace($newContent, $channelPattern, {
     $inner = [regex]::Replace($m.Groups['inner'].Value, '(?s)\s*<display-name[^>]*>.*?</display-name>', '')
     
     $aliases = @($baseName)
-    if ($baseName -eq "MOZI+") {
-        $aliases = @("MOZI+", "MOZI", "MOZI PLUS")
+    switch ($baseName) {
+        "MOZI+"               { $aliases = @("MOZI+", "MOZI", "MOZI PLUS") }
+        "TV2 SÉF"             { $aliases = @("TV2 SÉF", "TV2 SEF", "TV2SEF", "TV2SÉF") }
+        "TV 4"                { $aliases = @("TV 4", "TV4") }
+        "FISHING AND HUNTING" { $aliases = @("FISHING &amp; HUNTING", "FISHING AND HUNTING") }
+        "RTL+"                { $aliases = @("RTL+", "RTL +", "RTL PLUS", "RTLPLUS") }
     }
 
     $names = ""
@@ -118,4 +125,3 @@ $gzipWriter = New-Object System.IO.Compression.GzipStream $outGzStream, ([IO.Com
 $gzipWriter.Write($rawBytes, 0, $rawBytes.Length)
 $gzipWriter.Close()
 $outGzStream.Close()
-
