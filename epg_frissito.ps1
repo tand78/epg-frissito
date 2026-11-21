@@ -84,7 +84,11 @@ $newContent = [regex]::Replace($newContent, $channelPattern, {
     switch ($baseName) {
         "MOZI+"               { $aliases = @("MOZI+", "MOZI", "MOZI PLUS") }
         "RTL KETTŐ"           { $aliases = @("RTL KETTO", "RTLII", "RTL II") }
-        "TV2 SÉF"             { $aliases = @("TV2 SÉF", "TV2 SEF", "TV2SEF", "TV2SÉF") }
+        "RTL HÁROM"           { $aliases = @("RTL HÁROM", "RTL3", "RTL 3", "RTL HAROM", "RTLHÁROM", "RTLHAROM", "RTL HÁROM HD", "RTL HAROM HD", "RTL3 HD", "RTL 3 HD") }
+        "HÍR TV"              { $aliases = @("HÍR TV", "HIR", "HIRTV", "HIR TV", "HÍRTV", "HÍR", "HÍR TV HD", "HIR TV HD", "HIRTV HD", "HÍRTV HD") }
+        "FILM+"               { $aliases = @("FILM+", "FILM +", "FILM PLUS", "FILMPLUS", "FILM PLUSZ", "FILMPLUSZ", "FILM+ HD", "FILM + HD", "FILM PLUS HD", "FILM PLUSZ HD") }
+        "TV2 SÉF"             { $aliases = @("TV2 SÉF", "TV2 SEF", "TV2SEF", "TV2SÉF") 
+        "FEM3"                { $aliases = @("FEM3", "FEM 3", "FEM3 HD", "FEM 3 HD") }}
         "TV 4"                { $aliases = @("TV 4", "TV4") }
         "FISHING AND HUNTING" { $aliases = @("FISHING &amp; HUNTING", "FISHING AND HUNTING") }
         "RTL+"                { $aliases = @("RTL+", "RTL +", "RTL PLUS", "RTLPLUS") }
