@@ -4,6 +4,7 @@ $urls = @(
 )
 
 $output = "friss_epg.xml"
+$outputGz = "friss_epg.xml.gz"
 $temp = "temp_epg.dat"
 $xmlTemp = "temp_part.xml"
 
@@ -13,7 +14,12 @@ $allProgrammes = ""
 foreach ($url in $urls) {
     if ([string]::IsNullOrWhiteSpace($url)) { continue }
 
-    Invoke-WebRequest -Uri $url -OutFile $temp -UserAgent "Mozilla/5.0"
+    try {
+        Invoke-WebRequest -Uri $url -OutFile $temp -UserAgent "Mozilla/5.0" -TimeoutSec 30 -ErrorAction Stop
+    } catch {
+        Write-Warning "Nem sikerult letolteni: $url"
+        continue
+    }
 
     $bytes = [System.IO.File]::ReadAllBytes($temp)
     if ($bytes.Length -ge 2 -and $bytes.GetValue(0) -eq 0x1F -and $bytes.GetValue(1) -eq 0x8B) {
@@ -92,3 +98,11 @@ $newContent = [regex]::Replace($newContent, $progPattern, {
 })
 
 Set-Content -Path $output -Value $newContent -Encoding UTF8
+
+# Tömörített .xml.gz mentése is
+$rawBytes = [System.Text.Encoding]::UTF8.GetBytes($newContent)
+$outGzStream = New-Object System.IO.FileStream $outputGz, ([IO.FileMode]::Create)
+$gzipWriter = New-Object System.IO.Compression.GzipStream $outGzStream, ([IO.Compression.CompressionMode]::Compress)
+$gzipWriter.Write($rawBytes, 0, $rawBytes.Length)
+$gzipWriter.Close()
+$outGzStream.Close()
