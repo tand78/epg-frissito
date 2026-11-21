@@ -59,7 +59,6 @@ $newContent = [regex]::Replace($newContent, '(?i)(?<prefix>id="|channel="|<displ
 $newContent = [regex]::Replace($newContent, '(?i)(?<prefix>id="|channel="|<display-name[^>]*>)HU:\s*GALAXY\s*4(?<suffix>"|</display-name>)', '${prefix}HU: GALAXY4${suffix}')
 $newContent = [regex]::Replace($newContent, '(?i)(?<prefix>id="|channel="|<display-name[^>]*>)HU:\s*M4\s+SPORT(?<suffix>"|</display-name>)', '${prefix}HU: M4${suffix}')
 $newContent = [regex]::Replace($newContent, '(?i)(?<prefix>id="|channel="|<display-name[^>]*>)HU:\s*OZONE\s*TV(?<suffix>"|</display-name>)', '${prefix}HU: OZONE NETWORK${suffix}')
-$newContent = [regex]::Replace($newContent, '(?i)(?<prefix>id="|channel="|<display-name[^>]*>)HU:\s*RTL\s+KETT(Ő|Ö|O)(?<suffix>"|</display-name>)', '${prefix}HU: RTL II${suffix}')
 $newContent = [regex]::Replace($newContent, '(?i)(?<prefix>id="|channel="|<display-name[^>]*>)HU:\s*RTL(?<suffix>"|</display-name>)', '${prefix}HU: RTL KLUB${suffix}')
 $newContent = [regex]::Replace($newContent, '(?i)(?<prefix>id="|channel="|<display-name[^>]*>)HU:\s*SL(Á|A)GER\s+TV(?<suffix>"|</display-name>)', '${prefix}HU: SLAGER TV${suffix}')
 $newContent = [regex]::Replace($newContent, '(?i)(?<prefix>id="|channel="|<display-name[^>]*>)HU:\s*MOZI\s*(\+|PLUS)(?<suffix>"|</display-name>)', '${prefix}HU: MOZI+${suffix}')
@@ -84,6 +83,7 @@ $newContent = [regex]::Replace($newContent, $channelPattern, {
     $aliases = @($baseName)
     switch ($baseName) {
         "MOZI+"               { $aliases = @("MOZI+", "MOZI", "MOZI PLUS") }
+        "RTL KETTŐ"           { $aliases = @("RTL KETTO", "RTLII", "RTL II") }
         "TV2 SÉF"             { $aliases = @("TV2 SÉF", "TV2 SEF", "TV2SEF", "TV2SÉF") }
         "TV 4"                { $aliases = @("TV 4", "TV4") }
         "FISHING AND HUNTING" { $aliases = @("FISHING &amp; HUNTING", "FISHING AND HUNTING") }
