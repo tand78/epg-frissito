@@ -97,6 +97,7 @@ $newContent = [regex]::Replace($newContent, $channelPattern, {
                   "`r`n  <display-name>HUN: $alias</display-name>" +
                   "`r`n  <display-name>IHUI $alias</display-name>" +
                   "`r`n  <display-name>┃HU┃ $alias</display-name>" +
+                  "`r`n  <display-name>HU -  $alias</display-name>" +
                   "`r`n  <display-name>$alias (HD)</display-name>"
     }
 
